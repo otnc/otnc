@@ -41,6 +41,10 @@ All my skills: https://otoneko.cat#skills
 
 ### GitHub:
 
+Others:  
+  Team: [@oto-home](https://github.com/oto-home)  
+  Personal: [@oto-lab](https://github.com/oto-lab)  
+
 <div align="center" style="align-items: center">
 
 <div style="display: flex;">
