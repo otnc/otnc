@@ -1,5 +1,7 @@
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=otoneko1102&color=blueviolet&style=flat-square&label=Profile+Views) -->
 
+[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
+
 <div align="center" style="align-items: center">
   
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=500&width=300&lines=Hi+there%2C+I'm+otoneko.;Full-stack+developer;Funny+OSS+developer;OSS+contributor;Developer+community+staff)
@@ -7,8 +9,6 @@
 </div>
 
 ## Hi there 🐈
-
-[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
 <div align="center" style="align-items: center">
 
