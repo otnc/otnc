@@ -8,6 +8,8 @@
 
 ## Hi there 🐈
 
+[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
+
 <div align="center" style="align-items: center">
 
 <a href="https://justuuid.pages.dev/u/09b1318f-d8b2-4ea8-8efc-bd94ccef5e71" target="_blank" rel="noopener noreferrer">
