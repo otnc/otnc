@@ -2,7 +2,7 @@
  * update-github-urls.mjs
  *
  * GitHub Code Search API を使って全リポジトリから
- * "github.com/otoneko1102" を含むファイルを検索し、
+ * "github.com/otnc" を含むファイルを検索し、
  * "github.com/otnc" に書き換えてコミットするスクリプト。
  *
  * 使い方:
