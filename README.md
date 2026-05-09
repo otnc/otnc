@@ -71,17 +71,17 @@ Others:
 
 <div align="center" style="align-items: center">
 
-[![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otoneko1102)  
+[![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)  
 
 <details>
 
 <summary>Details of WakaTime</summary>
 
 <!--
-  https://github-readme-stats.oto.im/api/wakatime?username=otoneko1102&layout=compact&theme=dark
+  https://github-readme-stats.oto.im/api/wakatime?username=otnc&layout=compact&theme=dark
 -->
 
-[![WakaTime](./images/wakatime.svg)](https://wakatime.com/@otoneko1102)
+[![WakaTime](./images/wakatime.svg)](https://wakatime.com/@otnc)
 
 </details>
 
