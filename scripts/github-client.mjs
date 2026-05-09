@@ -49,10 +49,20 @@ async function handleRateLimit(res) {
 export async function ghFetch(url, options = {}) {
   const { intervalMs = REQUEST_INTERVAL_MS, ...fetchOptions } = options;
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    const res = await fetch(url, {
-      ...fetchOptions,
-      headers: { ...BASE_HEADERS, ...fetchOptions.headers },
-    });
+    let res;
+    try {
+      res = await fetch(url, {
+        ...fetchOptions,
+        headers: { ...BASE_HEADERS, ...fetchOptions.headers },
+      });
+    } catch (networkErr) {
+      // ECONNRESET / ECONNREFUSED などネットワーク例外はリトライ
+      if (attempt === MAX_RETRIES) throw networkErr;
+      const waitSec = attempt * 5;
+      console.log(`  [retry] network error (${networkErr.cause?.code ?? networkErr.message}) — ${waitSec}秒後にリトライ (${attempt}/${MAX_RETRIES})`);
+      await sleep(waitSec * 1000);
+      continue;
+    }
 
     // 429/503 はレート制限チェックより先に処理（二重待機を防ぐ）
     if (res.status === 429 || res.status === 503) {

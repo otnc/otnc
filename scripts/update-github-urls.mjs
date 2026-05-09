@@ -21,7 +21,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { apiGet, apiPut, searchCode } from "./github-client.mjs";
+import { apiGet, apiPut, searchCode, listAllRepos } from "./github-client.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const CACHE_DIR = join(__dir, "cache");
@@ -101,18 +101,79 @@ async function getDefaultBranch(owner, repo) {
 let uniqueItems;
 const cachedItems = readCache(SEARCH_CACHE_FILE);
 
-if (cachedItems) {
+// キャッシュが途中まであれば再利用し、残りのリポジトリだけ検索する
+// cache/search-items.json  … ヒットファイル一覧（途中保存あり）
+// cache/search-done.json   … 検索済みリポジトリ名のリスト
+const SEARCH_DONE_FILE = join(CACHE_DIR, "search-done.json");
+
+/** itemMap にアイテムを追加して即座にキャッシュへ書き込む */
+function appendToSearchCache(itemMap) {
+  writeCache(SEARCH_CACHE_FILE, [...itemMap.values()]);
+}
+
+if (cachedItems && !NO_CACHE) {
   console.log(`[cache] search-items.json を使用 (${cachedItems.length} 件)`);
   uniqueItems = cachedItems;
 } else {
-  console.log(`検索クエリ: "${OLD_URL_FRAGMENT}" user:${GITHUB_OWNER}`);
-  const items = await searchCode(`"${OLD_URL_FRAGMENT}" user:${GITHUB_OWNER}`);
-  console.log(`ヒット件数: ${items.length} ファイル`);
+  const itemMap = cachedItems
+    ? new Map(cachedItems.map((i) => [`${i.repository.name}:${i.path}`, i]))
+    : new Map();
+  const doneRepos = new Set(
+    NO_CACHE || !existsSync(SEARCH_DONE_FILE)
+      ? []
+      : JSON.parse(readFileSync(SEARCH_DONE_FILE, "utf-8"))
+  );
 
-  // repo:path で重複除去してからキャッシュ保存
-  uniqueItems = [...new Map(items.map((i) => [`${i.repository.name}:${i.path}`, i])).values()];
-  writeCache(SEARCH_CACHE_FILE, uniqueItems);
-  console.log(`[cache] search-items.json に保存しました\n`);
+  // ① ユーザー横断検索（未実施の場合のみ）
+  if (!doneRepos.has("__global__")) {
+    console.log(`検索クエリ: "${OLD_URL_FRAGMENT}" user:${GITHUB_OWNER}`);
+    const items = await searchCode(`"${OLD_URL_FRAGMENT}" user:${GITHUB_OWNER}`);
+    console.log(`ヒット件数: ${items.length} ファイル`);
+    for (const item of items) {
+      const key = `${item.repository.name}:${item.path}`;
+      if (!itemMap.has(key)) itemMap.set(key, item);
+    }
+    doneRepos.add("__global__");
+    appendToSearchCache(itemMap);
+    writeCache(SEARCH_DONE_FILE, [...doneRepos]);
+    console.log(`[cache] グローバル検索結果を保存しました (${itemMap.size} 件)`);
+  } else {
+    console.log(`[cache] グローバル検索済みをスキップ`);
+  }
+
+  const foundRepos = new Set([...itemMap.values()].map((i) => i.repository.name));
+
+  // ② 全リポジトリを列挙し、Code Search に漏れたリポジトリを個別検索で補う
+  console.log(`\n全リポジトリを列挙して漏れを補完中...`);
+  const allRepos = await listAllRepos();
+  console.log(`リポジトリ総数: ${allRepos.length}`);
+
+  for (const repo of allRepos) {
+    if (doneRepos.has(repo.name)) {
+      console.log(`  [cache] ${repo.name} — 検索済みスキップ`);
+      continue;
+    }
+    if (foundRepos.has(repo.name)) {
+      // グローバル検索でヒット済みだが個別検索は不要 → 完了扱い
+      doneRepos.add(repo.name);
+      writeCache(SEARCH_DONE_FILE, [...doneRepos]);
+      continue;
+    }
+    console.log(`  [補完検索] ${repo.name}`);
+    const repoItems = await searchCode(`"${OLD_URL_FRAGMENT}" repo:${GITHUB_OWNER}/${repo.name}`);
+    for (const item of repoItems) {
+      const key = `${item.repository.name}:${item.path}`;
+      if (!itemMap.has(key)) itemMap.set(key, item);
+    }
+    doneRepos.add(repo.name);
+    // リポジトリ1件ごとにキャッシュへ書き込む
+    appendToSearchCache(itemMap);
+    writeCache(SEARCH_DONE_FILE, [...doneRepos]);
+    console.log(`    → ${repoItems.length} 件ヒット (累計 ${itemMap.size} 件)`);
+  }
+
+  uniqueItems = [...itemMap.values()];
+  console.log(`\n検索完了 — 合計 ${uniqueItems.length} 件\n`);
 }
 
 // ---- 更新フェーズ ----
