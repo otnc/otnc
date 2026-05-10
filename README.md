@@ -1,4 +1,4 @@
-<!-- ![Profile Views](https://komarev.com/ghpvc/?username=otoneko1102&color=blueviolet&style=flat-square&label=Profile+Views) -->
+<!-- ![Profile Views](https://komarev.com/ghpvc/?username=otnc&color=blueviolet&style=flat-square&label=Profile+Views) -->
 
 [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
@@ -51,17 +51,17 @@ Others:
 
 <div style="display: flex;">
   <!--
-    https://github-readme-stats.oto.im/api?username=otoneko1102&show_icons=true&count_private=true&theme=onedark
+    https://github-readme-stats.oto.im/api?username=otnc&show_icons=true&count_private=true&theme=onedark
   -->
   <img style="height: 220px;" src="./images/stats.svg" alt="GitHub Stats" >
   <!--
-    https://github-readme-stats.oto.im/api/top-langs/?username=otoneko1102&langs_count=20&show_icons=true&count_private=false&layout=compact&theme=onedark
+    https://github-readme-stats.oto.im/api/top-langs/?username=otnc&langs_count=20&show_icons=true&count_private=false&layout=compact&theme=onedark
   -->
   <img style="height: 220px;" src="./images/top-langs.svg" alt="Top Langs" >
 </div>
 
 <!--
-  https://github-profile-trophy.oto.im/?username=otoneko1102&theme=onedark&count_private=true&column=10
+  https://github-profile-trophy.oto.im/?username=otnc&theme=onedark&count_private=true&column=10
 -->
 ![Trophy](./images/trophy.svg)
 
@@ -126,7 +126,7 @@ Tech topics & chat
 |:-:|:-:|
 |<div align="center">I'm a staff ...<br><img src="https://discordapp.com/api/guilds/1255359848644608035/widget.png?style=banner4" alt="Evex Developers" width="300px"></div>|<div align="center">My own ...<br><img src="https://discordapp.com/api/guilds/1369635074395344998/widget.png?style=banner4" alt="Oto Home" width="300px"></div>|
 
-[![Gitty Score](https://gitty-code.com/api/badge/otoneko1102.png)](https://gitty-code.com/user/otoneko1102)
+[![Gitty Score](https://gitty-code.com/api/badge/otnc.png)](https://gitty-code.com/user/otnc)
 
 </details>
 

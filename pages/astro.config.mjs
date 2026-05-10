@@ -5,6 +5,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   output: 'static',
   outDir: '../docs',
-  base: '/otoneko1102/',
-  site: 'https://otoneko1102.github.io',
+  base: '/otnc/',
+  site: 'https://otnc.github.io',
 });
