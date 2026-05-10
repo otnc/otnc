@@ -1,4 +1,4 @@
-<!-- ![Profile Views](https://komarev.com/ghpvc/?username=otnc&color=blueviolet&style=flat-square&label=Profile+Views) -->
+![Profile Views](https://komarev.com/ghpvc/?username=otnc&color=blueviolet&style=flat-square&label=Profile+Views)
 
 [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
