@@ -111,7 +111,14 @@ function appendToSearchCache(itemMap) {
   writeCache(SEARCH_CACHE_FILE, [...itemMap.values()]);
 }
 
-if (cachedItems && !NO_CACHE) {
+const searchIsDone = !NO_CACHE && existsSync(SEARCH_DONE_FILE) && (() => {
+  try {
+    const done = JSON.parse(readFileSync(SEARCH_DONE_FILE, "utf-8"));
+    return Array.isArray(done) && done.includes("__global__") && done.includes("__all_repos__");
+  } catch { return false; }
+})();
+
+if (cachedItems && searchIsDone) {
   console.log(`[cache] search-items.json を使用 (${cachedItems.length} 件)`);
   uniqueItems = cachedItems;
 } else {
@@ -173,6 +180,9 @@ if (cachedItems && !NO_CACHE) {
   }
 
   uniqueItems = [...itemMap.values()];
+  // 全リポジトリ検索完了フラグを書き込む
+  doneRepos.add("__all_repos__");
+  writeCache(SEARCH_DONE_FILE, [...doneRepos]);
   console.log(`\n検索完了 — 合計 ${uniqueItems.length} 件\n`);
 }
 
