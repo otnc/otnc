@@ -1,21 +1,23 @@
 /**
  * update-github-urls.mjs
  *
- * GitHub Code Search API を使って全リポジトリから
- * "github.com/otnc" を含むファイルを検索し、
- * "github.com/otnc" に書き換えてコミットするスクリプト。
+ * GitHub Code Search API を使って全リポジトリから旧アカウント名を含む
+ * ファイルを検索し、対象パターンのみ新アカウント名に書き換えてコミットする。
  *
  * 使い方:
  *   npm run urls             # キャッシュがあれば再利用
  *   npm run urls -- --no-cache  # キャッシュを無視して再検索
  *
  * キャッシュ:
- *   cache/search-items.json  … Code Search ヒット一覧
+ *   cache/search-items.json  … Code Search ヒット一覧（途中保存あり）
+ *   cache/search-done.json   … 検索済みリポジトリ名
  *   cache/repo-branches.json … default_branch の取得結果
  *
  * 注意:
  *   - Code Search API は認証済みでも 10 req/min のため低速です。
  *   - バイナリファイル (画像等) は自動スキップします。
+ *   - VS Code 拡張 ID / publisher / Kyash / JSR スコープなど
+ *     置換すべきでないパターンは REPLACE_RULES に含まれません。
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -53,10 +55,49 @@ if (!OLD_NAME || !NEW_NAME) {
   process.exit(1);
 }
 
-const OLD_URL_FRAGMENT = `github.com/${OLD_NAME}`;
-const NEW_URL_FRAGMENT = `github.com/${NEW_NAME}`;
 const GITHUB_OWNER = NEW_NAME;
-const COMMIT_MESSAGE = `chore: replace ${OLD_URL_FRAGMENT} with ${NEW_URL_FRAGMENT}`;
+const COMMIT_MESSAGE = `chore: replace ${OLD_NAME} references with ${NEW_NAME}`;
+
+/**
+ * 置換ルール。上から順に適用する。
+ *
+ * 【置換しないもの（ルールに含めない）】
+ *   - otoneko1102.noshift-vscode / otoneko1102.purus  … VS Code 拡張 ID
+ *   - "publisher": "otoneko1102"                      … VS Code publisher フィールド
+ *   - Kyash: @otoneko1102                              … Kyash ハンドル
+ *   - jsr.io/@otoneko1102 / @otoneko1102/<pkg>         … JSR / npm スコープパッケージ
+ */
+const REPLACE_RULES = [
+  // github.com URL（パス区切り有無を問わず）
+  [new RegExp(`github\.com/${OLD_NAME}`, "g"), `github.com/${NEW_NAME}`],
+  // GitHub Pages
+  [new RegExp(`${OLD_NAME}\.github\.io`, "g"), `${NEW_NAME}.github.io`],
+  // shields.io GitHub バッジ（/TYPE/.../otoneko1102/<repo> 形式）
+  [new RegExp(`(shields\.io\/github\/(?:[^/\\s]+\/)*)${OLD_NAME}\/`, "g"), `$1${NEW_NAME}/`],
+  // contrib.rocks（?repo=otoneko1102/<repo> 形式）
+  [new RegExp(`(contrib\.rocks\/image\\?repo=)${OLD_NAME}\/`, "g"), `$1${NEW_NAME}/`],
+  // GitHub プロフィール @mention（全角括弧）例: （@otoneko1102）
+  [new RegExp(`（@${OLD_NAME}）`, "g"), `（@${NEW_NAME}）`],
+  // GitHub プロフィール @mention（半角括弧）例: (@otoneko1102)
+  [new RegExp(`\\(@${OLD_NAME}\\)`, "g"), `(@${NEW_NAME})`],
+];
+
+/** テキストに REPLACE_RULES のいずれかがマッチするか確認 */
+function hasAnyMatch(text) {
+  return REPLACE_RULES.some(([pattern]) => {
+    pattern.lastIndex = 0;
+    return pattern.test(text);
+  });
+}
+
+/** REPLACE_RULES をすべて適用して置換後テキストを返す */
+function applyReplaceRules(text) {
+  let result = text;
+  for (const [pattern, replacement] of REPLACE_RULES) {
+    result = result.replace(pattern, replacement);
+  }
+  return result;
+}
 
 /** テキストとして扱えない拡張子はスキップ */
 const BINARY_EXTENSIONS = new Set([
@@ -133,8 +174,8 @@ if (cachedItems && searchIsDone) {
 
   // ① ユーザー横断検索（未実施の場合のみ）
   if (!doneRepos.has("__global__")) {
-    console.log(`検索クエリ: "${OLD_URL_FRAGMENT}" user:${GITHUB_OWNER}`);
-    const items = await searchCode(`"${OLD_URL_FRAGMENT}" user:${GITHUB_OWNER}`);
+    console.log(`検索クエリ: "${OLD_NAME}" user:${GITHUB_OWNER}`);
+    const items = await searchCode(`"${OLD_NAME}" user:${GITHUB_OWNER}`);
     console.log(`ヒット件数: ${items.length} ファイル`);
     for (const item of items) {
       const key = `${item.repository.name}:${item.path}`;
@@ -167,7 +208,7 @@ if (cachedItems && searchIsDone) {
       continue;
     }
     console.log(`  [補完検索] ${repo.name}`);
-    const repoItems = await searchCode(`"${OLD_URL_FRAGMENT}" repo:${GITHUB_OWNER}/${repo.name}`);
+    const repoItems = await searchCode(`"${OLD_NAME}" repo:${GITHUB_OWNER}/${repo.name}`);
     for (const item of repoItems) {
       const key = `${item.repository.name}:${item.path}`;
       if (!itemMap.has(key)) itemMap.set(key, item);
@@ -212,13 +253,12 @@ for (const item of uniqueItems) {
       continue;
     }
 
-    if (!file.text.includes(OLD_URL_FRAGMENT)) {
-      console.log(`  [skip] 対象文字列なし（インデックスが古い可能性あり）`);
+    const updatedText = applyReplaceRules(file.text);
+    if (updatedText === file.text) {
+      console.log(`  [skip] 対象パターンなし（インデックスが古いか置換不要）`);
       skippedCount++;
       continue;
     }
-
-    const updatedText = file.text.replaceAll(OLD_URL_FRAGMENT, NEW_URL_FRAGMENT);
     const encodedContent = Buffer.from(updatedText).toString("base64");
 
     await apiPut(`/repos/${GITHUB_OWNER}/${repoName}/contents/${filePath}`, {
