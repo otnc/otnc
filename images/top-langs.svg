@@ -329,7 +329,7 @@
     <g class="stagger" style="animation-delay: 1050ms">
       <circle cx="5" cy="6" r="5" fill="#b92381" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        MoonBit 5.88%
+        MoonBit 5.89%
       </text>
     </g>
   </g><g transform="translate(0, 125)">
