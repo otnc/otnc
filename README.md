@@ -18,7 +18,7 @@ I'm swimming in the ocean, forever and ever...
 
 | I am a ... |
 |:-:|
-| Full-stack developer? |
+| Full-stack? developer |
 | Funny OSS developer |
 | OSS contributor |
 | Developer community staff |
