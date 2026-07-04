@@ -110,6 +110,15 @@ Others:
 
 ## Others
 
+<div align="center">
+  <a href="https://commit-history.com/otnc">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/otnc?theme=dark" />
+      <img alt="otnc's commit history" src="https://commit-history.com/embed/otnc" />
+    </picture>
+  </a>
+</div>
+
 <div align="center" style="align-items: center">
 
 <details>
