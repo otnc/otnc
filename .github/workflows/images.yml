@@ -41,13 +41,12 @@ jobs:
 
       - name: Generate trophy
         continue-on-error: true
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: ryo-ma/github-profile-trophy@master
         with:
             username: ${{ github.repository_owner }}
             token: ${{ secrets.GITHUB_TOKEN }}
-            file: images/trophy.svg
+            output_path: images/trophy.svg
             theme: onedark
-            max-rows: 1
 
       - name: Commit cards
         run: |
