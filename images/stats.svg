@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">otoneko.'s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 393, Total Commits  (last year) : 3904, Total PRs: 342, Total Issues: 129, Contributed to (last year): 86</desc>
+        <title id="titleId">otoneko.&#39;s GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Stars Earned: 392, Total Commits  (last year) : 3935, Total PRs: 345, Total Issues: 129, Contributed to (last year): 86</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 11.81476224017711;
+        stroke-dashoffset: 11.813744625428228;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >otoneko.'s GitHub Stats</text>
+      >otoneko.&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -162,7 +162,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >393</text>
+      >392</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >342</text>
+      >345</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
