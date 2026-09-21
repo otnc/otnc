@@ -43,7 +43,7 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
-Given by @mimifuwacc ([X](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
+Given by @mimifuwacc ([Twitter](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
 
 Trust anchors:
 
@@ -74,7 +74,7 @@ Trust anchors:
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
-@mimifuwacc さんからもらいました ([X](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
+@mimifuwacc さんからもらいました ([Twitter](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
 
 信頼の根拠:
 

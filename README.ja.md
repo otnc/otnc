@@ -34,7 +34,7 @@ I'm swimming in the ocean, forever and ever...
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
-@mimifuwacc さんからもらいました ([X](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
+@mimifuwacc さんからもらいました ([Twitter](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
 
 信頼の根拠:
 
