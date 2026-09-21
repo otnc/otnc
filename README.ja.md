@@ -8,7 +8,7 @@
 
 I'm swimming in the ocean, forever and ever...
 
-ポートフォリオ: https://otoneko.cat
+ポートフォリオ: https://otoneko.cat / https://montblank.fun
 
 チーム: [@oto-home](https://github.com/oto-home) / 個人: [@oto-lab](https://github.com/oto-lab)
 
@@ -50,11 +50,11 @@ I'm swimming in the ocean, forever and ever...
 
 </div>
 
-## 支援
+## Support me!
 
 <div align="center">
 
-<a href="https://www.buymeacoffee.com/devuloper" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" /></a> <a href="https://ko-fi.com/E1E41LY2C9" target="_blank"><img src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" alt="Buy Me a Coffee at ko-fi.com" height="48" /></a>
+<a href="https://github.com/sponsors/otnc" target="_blank"><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" height="48" /></a> <a href="https://www.buymeacoffee.com/devuloper" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" /></a> <a href="https://ko-fi.com/E1E41LY2C9" target="_blank"><img src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" alt="Buy Me a Coffee at ko-fi.com" height="48" /></a>
 
 </div>
 

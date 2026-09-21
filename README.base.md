@@ -9,13 +9,13 @@
 I'm swimming in the ocean, forever and ever...
 
 :::kiritan{locale=en}
-Portfolio: https://otoneko.cat
+Portfolio: https://otoneko.cat / https://montblank.fun
 
 Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://github.com/oto-lab)
 :::
 
 :::kiritan{locale=ja}
-ポートフォリオ: https://otoneko.cat
+ポートフォリオ: https://otoneko.cat / https://montblank.fun
 
 チーム: [@oto-home](https://github.com/oto-home) / 個人: [@oto-lab](https://github.com/oto-lab)
 :::
@@ -83,16 +83,16 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 </div>
 
 :::kiritan{locale=en}
-## Support
+## Support me!
 :::
 
 :::kiritan{locale=ja}
-## 支援
+## Support me!
 :::
 
 <div align="center">
 
-<a href="https://www.buymeacoffee.com/devuloper" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" /></a> <a href="https://ko-fi.com/E1E41LY2C9" target="_blank"><img src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" alt="Buy Me a Coffee at ko-fi.com" height="48" /></a>
+<a href="https://github.com/sponsors/otnc" target="_blank"><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" height="48" /></a> <a href="https://www.buymeacoffee.com/devuloper" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" /></a> <a href="https://ko-fi.com/E1E41LY2C9" target="_blank"><img src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" alt="Buy Me a Coffee at ko-fi.com" height="48" /></a>
 
 </div>
 
