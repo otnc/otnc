@@ -24,5 +24,8 @@ export const LAYOUT = {
   languages: { titleY: 246, barY: 260, barHeight: 10, legendTop: 296, legendRowHeight: 24, legendColumns: 5, dotRadius: 5 },
 };
 
+/** Octicons drawn next to titles and labels: size in px and the gap before the text. */
+export const ICON = { size: 14, gap: 8, languagesTitle: "code" };
+
 export const INNER_WIDTH = LAYOUT.width - LAYOUT.padding * 2;
 export const PANEL_WIDTH = (INNER_WIDTH - LAYOUT.panels.gap * (LAYOUT.panels.count - 1)) / LAYOUT.panels.count;
