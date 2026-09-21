@@ -36,7 +36,7 @@ I'm swimming in the ocean, forever and ever...
 
 @mimifuwacc さんからもらいました ([Twitter](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
 
-信頼の根拠:
+発行元:
 
 - <https://x.com/mimifuwacc/status/2037864351907107222> (@mimifuwacc)
 - <https://x.com/rin_montblank/status/2097596799540432933> (@rin\_montblank)
