@@ -34,7 +34,7 @@ I'm swimming in the ocean, forever and ever...
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
-@mimifuwacc さんからもらいました ([Twitter](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
+@mimifuwacc さんからもらいました ([Twitter](https://twitter.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
 
 </div>
 
@@ -42,8 +42,8 @@ I'm swimming in the ocean, forever and ever...
 
 発行元:
 
-- <https://x.com/mimifuwacc/status/2037864351907107222> (@mimifuwacc)
-- <https://x.com/rin_montblank/status/2097596799540432933> (@rin\_montblank)
+- <https://twitter.com/mimifuwacc/status/2037864351907107222> (@mimifuwacc)
+- <https://twitter.com/rin_montblank/status/2097596799540432933> (@rin\_montblank)
 
 ## 最近の活動
 
