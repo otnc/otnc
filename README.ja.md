@@ -1,3 +1,7 @@
+# Hi there 🐈
+
+I'm otoneko. a.k.a. marron.
+
 [English](README.md) | **日本語**
 
 <div align="center">

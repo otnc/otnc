@@ -1,3 +1,7 @@
+# Hi there 🐈
+
+I'm otoneko. a.k.a. marron.
+
 ::kiritan{switcher}
 
 <div align="center">
