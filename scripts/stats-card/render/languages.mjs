@@ -1,5 +1,6 @@
-import { INNER_WIDTH, LAYOUT } from "../config.mjs";
+import { ICON, INNER_WIDTH, LAYOUT } from "../config.mjs";
 import { THEME } from "../theme.mjs";
+import { renderIcon, textOffset } from "./icon.mjs";
 import { h } from "./svg.mjs";
 
 export function renderLanguages(labels, { languages, other }) {
@@ -29,7 +30,8 @@ export function renderLanguages(labels, { languages, other }) {
   });
 
   return [
-    h("text", { x: left, y: titleY, class: "title" }, labels.languages),
+    renderIcon(ICON.languagesTitle, { x: left, textY: titleY, fill: THEME.text }),
+    h("text", { x: left + textOffset, y: titleY, class: "title" }, labels.languages),
     h("clipPath", { id: "bar" }, h("rect", { x: left, y: barY, width: INNER_WIDTH, height: barHeight, rx: barHeight / 2 })),
     h("g", { "clip-path": "url(#bar)" }, segments),
     legend,

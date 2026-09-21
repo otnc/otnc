@@ -29,3 +29,11 @@ test("every label key used by the card exists in every locale", () => {
   const keys = (locale) => Object.keys(LABELS[locale]).sort();
   assert.deepEqual(keys("ja"), keys("en"));
 });
+
+test("every icon named in sections and config is a real Octicon", async () => {
+  const { default: octicons } = await import("@primer/octicons");
+  const { SECTIONS } = await import("../sections.mjs");
+  const { ICON } = await import("../config.mjs");
+  const names = [ICON.languagesTitle, ...SECTIONS.flatMap((s) => [s.icon, ...s.rows.map((r) => r.icon)])];
+  for (const name of names) assert.ok(octicons[name], `unknown Octicon: ${name}`);
+});
