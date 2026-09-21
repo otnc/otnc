@@ -1,23 +1,25 @@
 # Hi there 🐈
 
+[English](README.md) | **日本語**
+
 ![Native: 日本語](https://img.shields.io/badge/Native-%E6%97%A5%E6%9C%AC%E8%AA%9E_\(JA\)-BC002D?logo=googletranslate\&logoColor=white)
 ![Also: English](https://img.shields.io/badge/Also-English_\(EN\)-012169?logo=googletranslate\&logoColor=white)
 [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 [![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
 [![Followers](https://img.shields.io/github/followers/otnc?logo=github)](https://github.com/otnc?tab=followers)
 
-[![otoneko.cat](https://img.shields.io/badge/otoneko.cat-0078D4?logo=safari\&logoColor=white)](https://otoneko.cat)
-[![montblank.fun](https://img.shields.io/badge/montblank.fun-0078D4?logo=safari\&logoColor=white)](https://montblank.fun)
-[![Twitter @rin\_pineapple](https://img.shields.io/badge/Twitter-@rin__pineapple-000000?logo=x\&logoColor=white)](https://twitter.com/rin_pineapple)
-[![Twitter @rin\_montblank](https://img.shields.io/badge/Twitter-@rin__montblank-000000?logo=x\&logoColor=white)](https://twitter.com/rin_montblank)
-[![Misskey @o](https://img.shields.io/badge/Misskey-@o-86B300?logo=misskey\&logoColor=white)](https://misskey.otnc.dev/@o)
-[![Misskey @m](https://img.shields.io/badge/Misskey-@m-86B300?logo=misskey\&logoColor=white)](https://misskey.otnc.dev/@m)
+<!--
+[![otoneko.cat](https://img.shields.io/badge/otoneko.cat-0078D4?logo=safari&logoColor=white)](https://otoneko.cat)
+[![montblank.fun](https://img.shields.io/badge/montblank.fun-0078D4?logo=safari&logoColor=white)](https://montblank.fun)
+[![Twitter @rin_pineapple](https://img.shields.io/badge/Twitter-@rin__pineapple-000000?logo=x&logoColor=white)](https://twitter.com/rin_pineapple)
+[![Twitter @rin_montblank](https://img.shields.io/badge/Twitter-@rin__montblank-000000?logo=x&logoColor=white)](https://twitter.com/rin_montblank)
+[![Misskey @o](https://img.shields.io/badge/Misskey-@o-86B300?logo=misskey&logoColor=white)](https://misskey.otnc.dev/@o)
+[![Misskey @m](https://img.shields.io/badge/Misskey-@m-86B300?logo=misskey&logoColor=white)](https://misskey.otnc.dev/@m)
+-->
 
 **I'm *otoneko.* a.k.a. *marron.***
 
 ***
-
-[English](README.md) | **日本語**
 
 <div align="center">
 
