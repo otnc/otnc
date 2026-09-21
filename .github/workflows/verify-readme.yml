@@ -1,0 +1,41 @@
+name: Verify README
+
+on:
+  pull_request:
+    paths:
+      - README.base.md
+      - README.md
+      - README.ja.md
+      - .kiritanconfig
+      - package.json
+      - package-lock.json
+  push:
+    branches: [main]
+    paths:
+      - README.base.md
+      - README.md
+      - README.ja.md
+      - .kiritanconfig
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify generated READMEs are up to date
+        run: npx kiritan verify
