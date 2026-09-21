@@ -1,46 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200" role="img" aria-label="GitHub stats">
-  <style>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="340" viewBox="0 0 840 340" role="img" aria-label="GitHub stats"><style>
     text { font-family: 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', Ubuntu, sans-serif; }
-    .value { font-size: 26px; font-weight: 700; fill: #58a6ff; }
-    .label { font-size: 12px; fill: #8b949e; }
     .title { font-size: 14px; font-weight: 600; fill: #e6edf3; }
+    .head { font-size: 11px; fill: #8b949e; text-anchor: end; }
+    .row { font-size: 13px; fill: #8b949e; }
+    .num { font-size: 13px; font-weight: 600; fill: #58a6ff; text-anchor: end; }
     .lang { font-size: 13px; fill: #e6edf3; }
-  </style>
-  <rect x="0.5" y="0.5" width="839" height="199" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="32" y="54" class="value">8,197</text>
-  <text x="32" y="74" class="label">コントリビューション</text>
-  <text x="182" y="54" class="value">5,939</text>
-  <text x="182" y="74" class="label">コミット</text>
-  <text x="332" y="54" class="value">603</text>
-  <text x="332" y="74" class="label">プルリクエスト</text>
-  <text x="32" y="116" class="value">181</text>
-  <text x="32" y="136" class="label">イシュー</text>
-  <text x="182" y="116" class="value">188</text>
-  <text x="182" y="136" class="label">フォロワー</text>
-  <text x="332" y="116" class="value">493</text>
-  <text x="332" y="136" class="label">スター</text>
-  <line x1="470" y1="24" x2="470" y2="176" stroke="#30363d"/>
-  <text x="500" y="40" class="title">よく使う言語</text>
-  <clipPath id="bar"><rect x="500" y="60" width="308" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#bar)">
-    <rect x="500" y="60" width="208.27645603276744" height="10" fill="#3178c6"/>
-    <rect x="708.2764560327674" y="60" width="41.05711297177416" height="10" fill="#f1e05a"/>
-    <rect x="749.3335690045416" y="60" width="15.889289038961246" height="10" fill="#ff3e00"/>
-    <rect x="765.2228580435028" y="60" width="10.32002834670937" height="10" fill="#ff5a03"/>
-    <rect x="775.5428863902123" y="60" width="7.381502968712875" height="10" fill="#b92381"/>
-    <rect x="782.924389358925" y="60" width="7.086595109105648" height="10" fill="#663399"/>
-  </g>
-  <circle cx="505" cy="96" r="5" fill="#3178c6"/>
-  <text x="516" y="100" class="lang">TypeScript <tspan class="label">67.6%</tspan></text>
-  <circle cx="665" cy="96" r="5" fill="#f1e05a"/>
-  <text x="676" y="100" class="lang">JavaScript <tspan class="label">13.3%</tspan></text>
-  <circle cx="505" cy="122" r="5" fill="#ff3e00"/>
-  <text x="516" y="126" class="lang">Svelte <tspan class="label">5.2%</tspan></text>
-  <circle cx="665" cy="122" r="5" fill="#ff5a03"/>
-  <text x="676" y="126" class="lang">Astro <tspan class="label">3.4%</tspan></text>
-  <circle cx="505" cy="148" r="5" fill="#b92381"/>
-  <text x="516" y="152" class="lang">MoonBit <tspan class="label">2.4%</tspan></text>
-  <circle cx="665" cy="148" r="5" fill="#663399"/>
-  <text x="676" y="152" class="lang">CSS <tspan class="label">2.3%</tspan></text>
-  <text x="32" y="184" class="label">登録日 2022-10-29</text>
-</svg>
+    .ratio { fill: #8b949e; }
+  </style><rect x="0.5" y="0.5" width="839" height="339" rx="10" fill="#0d1117" stroke="#30363d"/><text x="32" y="40" class="title">基本情報</text><text x="32" y="86" class="row">登録年</text><text x="272" y="86" class="num">2022</text><text x="32" y="110" class="row">フォロワー</text><text x="272" y="110" class="num">188</text><text x="32" y="134" class="row">フォロー中</text><text x="272" y="134" class="num">111</text><text x="32" y="158" class="row">最多スター</text><text x="272" y="158" class="num">hono-feed</text><text x="32" y="182" class="row">最多フォーク</text><text x="272" y="182" class="num">nekos</text><text x="300" y="40" class="title">リポジトリ</text><text x="476" y="62" class="head">fork除く</text><text x="540" y="62" class="head">すべて</text><text x="300" y="86" class="row">リポジトリ数</text><text x="476" y="86" class="num">129</text><text x="540" y="86" class="num">159</text><text x="300" y="110" class="row">スター数</text><text x="476" y="110" class="num">519</text><text x="540" y="110" class="num">542</text><text x="300" y="134" class="row">フォーク数</text><text x="476" y="134" class="num">27</text><text x="540" y="134" class="num">27</text><text x="300" y="158" class="row">ウォッチ数</text><text x="476" y="158" class="num">33</text><text x="540" y="158" class="num">33</text><text x="300" y="182" class="row">テンプレート</text><text x="476" y="182" class="num">3</text><text x="540" y="182" class="num">3</text><text x="300" y="206" class="row">アーカイブ</text><text x="476" y="206" class="num">25</text><text x="540" y="206" class="num">25</text><text x="568" y="40" class="title">コントリビューション</text><text x="744" y="62" class="head">過去1年</text><text x="808" y="62" class="head">累計</text><text x="568" y="86" class="row">コミット</text><text x="744" y="86" class="num">5,031</text><text x="808" y="86" class="num">5,939</text><text x="568" y="110" class="row">イシュー</text><text x="744" y="110" class="num">179</text><text x="808" y="110" class="num">181</text><text x="568" y="134" class="row">プルリクエスト</text><text x="744" y="134" class="num">586</text><text x="808" y="134" class="num">603</text><text x="568" y="158" class="row">PRレビュー</text><text x="744" y="158" class="num">21</text><text x="808" y="158" class="num">21</text><text x="568" y="182" class="row">貢献先リポジトリ</text><text x="808" y="182" class="num">96</text><text x="568" y="206" class="row">プライベート</text><text x="808" y="206" class="num">1,279</text><line x1="32" y1="220" x2="808" y2="220" stroke="#30363d"/><text x="32" y="246" class="title">言語の割合</text><clipPath id="bar"><rect x="32" y="260" width="776" height="10" rx="5"/></clipPath><g clip-path="url(#bar)"><rect x="32" y="260" width="476.3749993764862" height="10" fill="#3178c6"/><rect x="508.3749993764862" y="260" width="136.5583525649768" height="10" fill="#f1e05a"/><rect x="644.933351941463" y="260" width="47.44547660602574" height="10" fill="#ff3e00"/><rect x="692.3788285474888" y="260" width="23.718373387686054" height="10" fill="#ff5a03"/><rect x="716.0972019351748" y="260" width="19.18619121126719" height="10" fill="#663399"/><rect x="735.283393146442" y="260" width="16.70543688156049" height="10" fill="#b92381"/><rect x="751.9888300280024" y="260" width="12.031765563038311" height="10" fill="#fcb32c"/><rect x="764.0205955910408" y="260" width="8.801975291870813" height="10" fill="#e34c26"/><rect x="772.8225708829116" y="260" width="35.17742911708847" height="10" fill="#8b949e"/></g><circle cx="37" cy="292" r="5" fill="#3178c6"/><text x="48" y="296" class="lang">TypeScript <tspan class="ratio">61.4%</tspan></text><circle cx="192.2" cy="292" r="5" fill="#f1e05a"/><text x="203.2" y="296" class="lang">JavaScript <tspan class="ratio">17.6%</tspan></text><circle cx="347.4" cy="292" r="5" fill="#ff3e00"/><text x="358.4" y="296" class="lang">Svelte <tspan class="ratio">6.1%</tspan></text><circle cx="502.59999999999997" cy="292" r="5" fill="#ff5a03"/><text x="513.5999999999999" y="296" class="lang">Astro <tspan class="ratio">3.1%</tspan></text><circle cx="657.8" cy="292" r="5" fill="#663399"/><text x="668.8" y="296" class="lang">CSS <tspan class="ratio">2.5%</tspan></text><circle cx="37" cy="316" r="5" fill="#b92381"/><text x="48" y="320" class="lang">MoonBit <tspan class="ratio">2.2%</tspan></text><circle cx="192.2" cy="316" r="5" fill="#fcb32c"/><text x="203.2" y="320" class="lang">MDX <tspan class="ratio">1.6%</tspan></text><circle cx="347.4" cy="316" r="5" fill="#e34c26"/><text x="358.4" y="320" class="lang">HTML <tspan class="ratio">1.1%</tspan></text><circle cx="502.59999999999997" cy="316" r="5" fill="#8b949e"/><text x="513.5999999999999" y="320" class="lang">その他 <tspan class="ratio">4.5%</tspan></text></svg>
