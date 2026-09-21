@@ -1,14 +1,20 @@
 # Hi there 🐈
 
-I'm otoneko. a.k.a. marron.
+[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
+[![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
+[![Followers](https://img.shields.io/github/followers/otnc?logo=github)](https://github.com/otnc?tab=followers)
+
+[![otoneko.cat](https://img.shields.io/badge/otoneko.cat-0078D4?logo=safari&logoColor=white)](https://otoneko.cat) [![montblank.fun](https://img.shields.io/badge/montblank.fun-0078D4?logo=safari&logoColor=white)](https://montblank.fun) [![Twitter @rin_pineapple](https://img.shields.io/badge/Twitter-@rin__pineapple-000000?logo=x&logoColor=white)](https://twitter.com/rin_pineapple) [![Twitter @rin_montblank](https://img.shields.io/badge/Twitter-@rin__montblank-000000?logo=x&logoColor=white)](https://twitter.com/rin_montblank) [![Misskey @o](https://img.shields.io/badge/Misskey-@o-86B300?logo=misskey&logoColor=white)](https://misskey.otnc.dev/@o) [![Misskey @m](https://img.shields.io/badge/Misskey-@m-86B300?logo=misskey&logoColor=white)](https://misskey.otnc.dev/@m)
+
+**I'm _otoneko._ a.k.a. _marron._**
+
+---
 
 ::kiritan{switcher}
 
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=500&width=300&lines=Hi+there%2C+I'm+otoneko.;Full-stack%3F+developer;Funny+OSS+developer;OSS+contributor;Developer+community+staff" alt="Typing SVG" />
-
-[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
 I'm swimming in the ocean, forever and ever...
 
@@ -34,8 +40,6 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 <div align="center">
 
 ![GitHub stats](./images/stats.svg)
-
-[![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
 
 </div>
 
@@ -67,8 +71,6 @@ Issuer:
 <div align="center">
 
 ![GitHub stats](./images/stats.ja.svg)
-
-[![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
 
 </div>
 
