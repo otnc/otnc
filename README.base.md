@@ -6,7 +6,6 @@
 
 [![otoneko.cat](https://img.shields.io/badge/otoneko.cat-0078D4?logo=safari&logoColor=white)](https://otoneko.cat)
 [![montblank.fun](https://img.shields.io/badge/montblank.fun-0078D4?logo=safari&logoColor=white)](https://montblank.fun)
-
 [![Twitter @rin_pineapple](https://img.shields.io/badge/Twitter-@rin__pineapple-000000?logo=x&logoColor=white)](https://twitter.com/rin_pineapple)
 [![Twitter @rin_montblank](https://img.shields.io/badge/Twitter-@rin__montblank-000000?logo=x&logoColor=white)](https://twitter.com/rin_montblank)
 [![Misskey @o](https://img.shields.io/badge/Misskey-@o-86B300?logo=misskey&logoColor=white)](https://misskey.otnc.dev/@o)
