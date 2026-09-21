@@ -1,9 +1,18 @@
-name: Update README cards
+name: Update README
 
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches: [main]
+    paths:
+      - README.base.md
+      - .kiritanconfig
+      - scripts/**
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -12,46 +21,56 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
 
-      - name: Generate stats card
-        continue-on-error: true
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=onedark
-          path: images/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          node-version-file: .nvmrc
+          cache: npm
 
-      - name: Generate stats card
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate stats card (en)
         continue-on-error: true
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: cicirello/user-statistician@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&langs_count=20&show_icons=true&count_private=false&layout=compact&theme=onedark
-          path: images/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          image-file: images/userstats.svg
+          colors: dark
+          locale: en
+          commit-and-push: false
 
-      - name: Generate wakatime card
+      - name: Generate stats card (ja)
         continue-on-error: true
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: cicirello/user-statistician@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          card: wakatime
-          options: username=${{ github.repository_owner }}&layout=compact&theme=dark
-          path: images/wakatime.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          image-file: images/userstats.ja.svg
+          colors: dark
+          locale: ja
+          commit-and-push: false
 
-      - name: Generate trophy
+      - name: Generate lifetime stats
         continue-on-error: true
-        uses: ryo-ma/github-profile-trophy@master
-        with:
-            username: ${{ github.repository_owner }}
-            token: ${{ secrets.GITHUB_TOKEN }}
-            output_path: images/trophy.svg
-            theme: onedark
+        run: node scripts/lifetime-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit cards
+      - name: Update recent activity
+        continue-on-error: true
+        run: node scripts/recent-activity.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build README with kiritan
+        run: npx kiritan build
+
+      - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add images/*.svg
-          git commit -m "Update README images" || exit 0
+          git add README.base.md README.md README.ja.md images/*.svg
+          git commit -m "Update README" || exit 0
           git push
