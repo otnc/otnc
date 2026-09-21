@@ -5,7 +5,7 @@
     .since { font: 400 11px 'Segoe UI', Ubuntu, sans-serif; fill: #8b949e; text-anchor: middle; }
   </style>
   <rect x="0.5" y="0.5" width="479" height="95" rx="8" fill="#282c34" stroke="#3b4048"/>
-  <text x="80" y="40" class="value">8,192</text>
+  <text x="80" y="40" class="value">8,197</text>
   <text x="80" y="62" class="label">Contributions</text>
   <text x="240" y="40" class="value">188</text>
   <text x="240" y="62" class="label">Followers</text>

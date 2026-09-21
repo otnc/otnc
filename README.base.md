@@ -57,11 +57,11 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 :::
 
 <!-- activity:start -->
+- 🟣 [fix: fail loudly and retry when downloading the express suite tarball](https://github.com/otnc/exphono/pull/39) - otnc/exphono
 - 🟣 [fix: match Express 4 body-parser and query parser defaults under compat=4](https://github.com/otnc/exphono/pull/38) - otnc/exphono
 - 🟣 [chore: update hono and other dev dependencies](https://github.com/otnc/exphono/pull/37) - otnc/exphono
 - 🟣 [fix: use a port of path-to-regexp@0.1.x for compat=4 path syntax](https://github.com/otnc/exphono/pull/36) - otnc/exphono
 - 🟣 [fix: close more compat=4 res/req parity gaps](https://github.com/otnc/exphono/pull/35) - otnc/exphono
-- 🟣 [chore: bump express4 to ^4.22.3](https://github.com/otnc/exphono/pull/34) - otnc/exphono
 <!-- activity:end -->
 
 :::kiritan{locale=en}
