@@ -43,7 +43,12 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
-Given by [@mimifuwacc](https://x.com/mimifuwacc/status/2037864351907107222)
+Given by @mimifuwacc ([X](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
+
+Trust anchors:
+
+- [https://x.com/mimifuwacc/status/2037864351907107222](https://x.com/mimifuwacc/status/2037864351907107222) (@mimifuwacc)
+- [https://x.com/rin_montblank/status/2097596799540432933](https://x.com/rin_montblank/status/2097596799540432933) (@rin_montblank)
 
 </div>
 
@@ -69,7 +74,12 @@ Given by [@mimifuwacc](https://x.com/mimifuwacc/status/2037864351907107222)
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
-[@mimifuwacc](https://x.com/mimifuwacc/status/2037864351907107222) さんからもらいました
+@mimifuwacc さんからもらいました ([X](https://x.com/mimifuwacc) / [GitHub](https://github.com/mimifuwacc))
+
+信頼の根拠:
+
+- [https://x.com/mimifuwacc/status/2037864351907107222](https://x.com/mimifuwacc/status/2037864351907107222) (@mimifuwacc)
+- [https://x.com/rin_montblank/status/2097596799540432933](https://x.com/rin_montblank/status/2097596799540432933) (@rin_montblank)
 
 </div>
 
