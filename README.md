@@ -20,9 +20,7 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 
 <div align="center">
 
-![GitHub stats](./images/userstats.svg)
-
-![Lifetime stats](./images/lifetime.svg)
+![GitHub stats](./images/stats.svg)
 
 [![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
 
