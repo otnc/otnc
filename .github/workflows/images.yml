@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate stats card
         continue-on-error: true
-        run: node scripts/stats-card.mjs
+        run: node scripts/stats-card/index.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
