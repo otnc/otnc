@@ -8,7 +8,9 @@
   "scripts": {
     "build": "kiritan build",
     "verify": "kiritan verify",
-    "check": "kiritan check"
+    "check": "kiritan check",
+    "test": "node --test \"scripts/**/*.test.mjs\"",
+    "stats": "node scripts/stats-card/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/otnc/otnc#readme",
   "dependencies": {
+    "@octokit/graphql": "^9.0.5",
     "kiritan": "^0.5.0"
   }
 }
