@@ -79,6 +79,7 @@ I'm swimming in the ocean, forever and ever...
 
 - [Twitter: @rin\_pineapple](https://twitter.com/rin_pineapple)
 - [Twitter: @rin\_montblank](https://twitter.com/rin_montblank)
+- [Misskey: @m@misskey.otnc.dev](https://misskey.otnc.dev/@m)
 
 <div align="center">
 
