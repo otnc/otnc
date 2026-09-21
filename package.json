@@ -1,0 +1,28 @@
+{
+  "name": "otnc",
+  "version": "1.0.0",
+  "description": "otnc's profile",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "kiritan build",
+    "verify": "kiritan verify",
+    "check": "kiritan check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otnc/otnc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/otnc/otnc/issues"
+  },
+  "homepage": "https://github.com/otnc/otnc#readme",
+  "dependencies": {
+    "kiritan": "^0.5.0"
+  }
+}

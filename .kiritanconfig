@@ -1,0 +1,7 @@
+import { defineConfig } from "kiritan";
+
+export default defineConfig({
+  locales: { default: "en", list: ["en", "ja"] },
+  sources: [{ glob: "README.base.md", strategy: "inline" }],
+  naming: { preset: "dot" },
+});
