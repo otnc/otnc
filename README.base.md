@@ -1,4 +1,4 @@
-**English** | [日本語](README.ja.md)
+::kiritan{switcher}
 
 <div align="center">
 
@@ -8,14 +8,23 @@
 
 I'm swimming in the ocean, forever and ever...
 
+:::kiritan{locale=en}
 Portfolio: https://otoneko.cat
 
 Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://github.com/oto-lab)
+:::
 
-![Skills](https://skillicons.dev/icons?i=ts,js,nodejs,astro,svelte\&theme=dark)
+:::kiritan{locale=ja}
+ポートフォリオ: https://otoneko.cat
+
+チーム: [@oto-home](https://github.com/oto-home) / 個人: [@oto-lab](https://github.com/oto-lab)
+:::
+
+![Skills](https://skillicons.dev/icons?i=ts,js,nodejs,astro,svelte&theme=dark)
 
 </div>
 
+:::kiritan{locale=en}
 ## Stats
 
 <div align="center">
@@ -29,20 +38,43 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 </div>
 
 ## Recent activity
+:::
+
+:::kiritan{locale=ja}
+## 統計
+
+<div align="center">
+
+![GitHub stats](./images/userstats.ja.svg)
+
+![Lifetime stats](./images/lifetime.ja.svg)
+
+[![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
+
+</div>
+
+## 最近の活動
+:::
 
 <!-- activity:start -->
-
 - 🟣 [fix: match Express 4 body-parser and query parser defaults under compat=4](https://github.com/otnc/exphono/pull/38) - otnc/exphono
 - 🟣 [chore: update hono and other dev dependencies](https://github.com/otnc/exphono/pull/37) - otnc/exphono
 - 🟣 [fix: use a port of path-to-regexp@0.1.x for compat=4 path syntax](https://github.com/otnc/exphono/pull/36) - otnc/exphono
 - 🟣 [fix: close more compat=4 res/req parity gaps](https://github.com/otnc/exphono/pull/35) - otnc/exphono
 - 🟣 [chore: bump express4 to ^4.22.3](https://github.com/otnc/exphono/pull/34) - otnc/exphono
-
 <!-- activity:end -->
 
+:::kiritan{locale=en}
 ## Community
 
 Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my own (right).
+:::
+
+:::kiritan{locale=ja}
+## コミュニティ
+
+技術の話やおしゃべりの場です. 左は運営スタッフをしている Evex Developers, 右は自分で作った Oto Home です.
+:::
 
 <div align="center">
 
@@ -50,7 +82,13 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 
 </div>
 
+:::kiritan{locale=en}
 ## Support
+:::
+
+:::kiritan{locale=ja}
+## 支援
+:::
 
 <div align="center">
 
@@ -58,16 +96,28 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 
 </div>
 
+:::kiritan{locale=en}
 ## Contact
+:::
 
-- [Twitter: @rin\_pineapple](https://twitter.com/rin_pineapple)
-- [Twitter: @rin\_montblank](https://twitter.com/rin_montblank)
+:::kiritan{locale=ja}
+## 連絡先
+:::
+
+- [Twitter: @rin_pineapple](https://twitter.com/rin_pineapple)
+- [Twitter: @rin_montblank](https://twitter.com/rin_montblank)
 
 <div align="center">
 
 <details>
 
+:::kiritan{locale=en}
 <summary>More</summary>
+:::
+
+:::kiritan{locale=ja}
+<summary>もっと見る</summary>
+:::
 
 <a href="https://commit-history.com/otnc">
   <picture>

@@ -1,4 +1,4 @@
-**English** | [日本語](README.ja.md)
+[English](README.md) | **日本語**
 
 <div align="center">
 
@@ -8,27 +8,27 @@
 
 I'm swimming in the ocean, forever and ever...
 
-Portfolio: https://otoneko.cat
+ポートフォリオ: https://otoneko.cat
 
-Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://github.com/oto-lab)
+チーム: [@oto-home](https://github.com/oto-home) / 個人: [@oto-lab](https://github.com/oto-lab)
 
 ![Skills](https://skillicons.dev/icons?i=ts,js,nodejs,astro,svelte\&theme=dark)
 
 </div>
 
-## Stats
+## 統計
 
 <div align="center">
 
-![GitHub stats](./images/userstats.svg)
+![GitHub stats](./images/userstats.ja.svg)
 
-![Lifetime stats](./images/lifetime.svg)
+![Lifetime stats](./images/lifetime.ja.svg)
 
 [![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
 
 </div>
 
-## Recent activity
+## 最近の活動
 
 <!-- activity:start -->
 
@@ -40,9 +40,9 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 
 <!-- activity:end -->
 
-## Community
+## コミュニティ
 
-Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my own (right).
+技術の話やおしゃべりの場です. 左は運営スタッフをしている Evex Developers, 右は自分で作った Oto Home です.
 
 <div align="center">
 
@@ -50,7 +50,7 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 
 </div>
 
-## Support
+## 支援
 
 <div align="center">
 
@@ -58,7 +58,7 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 
 </div>
 
-## Contact
+## 連絡先
 
 - [Twitter: @rin\_pineapple](https://twitter.com/rin_pineapple)
 - [Twitter: @rin\_montblank](https://twitter.com/rin_montblank)
@@ -67,7 +67,7 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 
 <details>
 
-<summary>More</summary>
+<summary>もっと見る</summary>
 
 <a href="https://commit-history.com/otnc">
   <picture>
