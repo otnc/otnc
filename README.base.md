@@ -70,7 +70,7 @@ Trust anchors:
 
 <div align="center">
 
-<a href="https://x.com/mimifuwacc/status/2037864351907107222" target="_blank" rel="noopener noreferrer"><img src="./images/mimifuwacc-uuid.png" alt="UUID handwritten by mimifuwacc" width="360" /></a>
+<img src="./images/mimifuwacc-uuid.png" alt="UUID handwritten by mimifuwacc" width="360" />
 
 <code>a710c2c5-272c-495d-8215-d8444a007f95</code>
 
