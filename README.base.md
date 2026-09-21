@@ -20,7 +20,7 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 チーム: [@oto-home](https://github.com/oto-home) / 個人: [@oto-lab](https://github.com/oto-lab)
 :::
 
-![Skills](https://skillicons.dev/icons?i=ts,js,nodejs,astro,svelte&theme=dark)
+![Skills](https://skillicons.dev/icons?i=js,ts,html,css,coffeescript,py,ruby,go,react,nodejs,astro,svelte&theme=dark)
 
 </div>
 
