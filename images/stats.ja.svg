@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200" role="img" aria-label="GitHub stats">
+  <style>
+    text { font-family: 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', Ubuntu, sans-serif; }
+    .value { font-size: 26px; font-weight: 700; fill: #58a6ff; }
+    .label { font-size: 12px; fill: #8b949e; }
+    .title { font-size: 14px; font-weight: 600; fill: #e6edf3; }
+    .lang { font-size: 13px; fill: #e6edf3; }
+  </style>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="32" y="54" class="value">8,197</text>
+  <text x="32" y="74" class="label">コントリビューション</text>
+  <text x="182" y="54" class="value">5,939</text>
+  <text x="182" y="74" class="label">コミット</text>
+  <text x="332" y="54" class="value">603</text>
+  <text x="332" y="74" class="label">プルリクエスト</text>
+  <text x="32" y="116" class="value">181</text>
+  <text x="32" y="136" class="label">イシュー</text>
+  <text x="182" y="116" class="value">188</text>
+  <text x="182" y="136" class="label">フォロワー</text>
+  <text x="332" y="116" class="value">493</text>
+  <text x="332" y="136" class="label">スター</text>
+  <line x1="470" y1="24" x2="470" y2="176" stroke="#30363d"/>
+  <text x="500" y="40" class="title">よく使う言語</text>
+  <clipPath id="bar"><rect x="500" y="60" width="308" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="500" y="60" width="208.27645603276744" height="10" fill="#3178c6"/>
+    <rect x="708.2764560327674" y="60" width="41.05711297177416" height="10" fill="#f1e05a"/>
+    <rect x="749.3335690045416" y="60" width="15.889289038961246" height="10" fill="#ff3e00"/>
+    <rect x="765.2228580435028" y="60" width="10.32002834670937" height="10" fill="#ff5a03"/>
+    <rect x="775.5428863902123" y="60" width="7.381502968712875" height="10" fill="#b92381"/>
+    <rect x="782.924389358925" y="60" width="7.086595109105648" height="10" fill="#663399"/>
+  </g>
+  <circle cx="505" cy="96" r="5" fill="#3178c6"/>
+  <text x="516" y="100" class="lang">TypeScript <tspan class="label">67.6%</tspan></text>
+  <circle cx="665" cy="96" r="5" fill="#f1e05a"/>
+  <text x="676" y="100" class="lang">JavaScript <tspan class="label">13.3%</tspan></text>
+  <circle cx="505" cy="122" r="5" fill="#ff3e00"/>
+  <text x="516" y="126" class="lang">Svelte <tspan class="label">5.2%</tspan></text>
+  <circle cx="665" cy="122" r="5" fill="#ff5a03"/>
+  <text x="676" y="126" class="lang">Astro <tspan class="label">3.4%</tspan></text>
+  <circle cx="505" cy="148" r="5" fill="#b92381"/>
+  <text x="516" y="152" class="lang">MoonBit <tspan class="label">2.4%</tspan></text>
+  <circle cx="665" cy="148" r="5" fill="#663399"/>
+  <text x="676" y="152" class="lang">CSS <tspan class="label">2.3%</tspan></text>
+  <text x="32" y="184" class="label">登録日 2022-10-29</text>
+</svg>
