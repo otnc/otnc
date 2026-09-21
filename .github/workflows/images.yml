@@ -30,31 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate stats card (en)
+      - name: Generate stats card
         continue-on-error: true
-        uses: cicirello/user-statistician@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          image-file: images/userstats.svg
-          colors: dark
-          locale: en
-          commit-and-push: false
-
-      - name: Generate stats card (ja)
-        continue-on-error: true
-        uses: cicirello/user-statistician@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          image-file: images/userstats.ja.svg
-          colors: dark
-          locale: ja
-          commit-and-push: false
-
-      - name: Generate lifetime stats
-        continue-on-error: true
-        run: node scripts/lifetime-stats.mjs
+        run: node scripts/stats-card.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
