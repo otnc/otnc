@@ -79,6 +79,7 @@ Tech topics & chat. I'm a staff of Evex Developers (left), and Oto Home is my ow
 
 - [Twitter: @rin\_pineapple](https://twitter.com/rin_pineapple)
 - [Twitter: @rin\_montblank](https://twitter.com/rin_montblank)
+- [Misskey: @o@misskey.otnc.dev](https://misskey.otnc.dev/@o)
 - [Misskey: @m@misskey.otnc.dev](https://misskey.otnc.dev/@m)
 
 <div align="center">
