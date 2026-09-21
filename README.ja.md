@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=500&width=300&lines=Hi+there%2C+I'm+otoneko.;Full-stack%3F+developer;Funny+OSS+developer;OSS+contributor;Developer+community+staff" alt="Typing SVG" />
 
-[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li) <a href="https://justuuid.pages.dev/u/09b1318f-d8b2-4ea8-8efc-bd94ccef5e71" target="_blank" rel="noopener noreferrer"><img src="https://justuuid.pages.dev/api/badge/u/09b1318f-d8b2-4ea8-8efc-bd94ccef5e71.svg" alt="UUID Badge" /></a>
+[![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
 I'm swimming in the ocean, forever and ever...
 
@@ -23,6 +23,18 @@ I'm swimming in the ocean, forever and ever...
 ![GitHub stats](./images/stats.ja.svg)
 
 [![WakaTime](https://wakatime.com/badge/user/394a566c-2077-4d06-b5df-238177518f12.svg)](https://wakatime.com/@otnc)
+
+</div>
+
+## UUID
+
+<div align="center">
+
+<a href="https://x.com/mimifuwacc/status/2037864351907107222" target="_blank" rel="noopener noreferrer"><img src="./images/mimifuwacc-uuid.png" alt="UUID handwritten by mimifuwacc" width="360" /></a>
+
+<code>a710c2c5-272c-495d-8215-d8444a007f95</code>
+
+[@mimifuwacc](https://x.com/mimifuwacc/status/2037864351907107222) さんからもらいました
 
 </div>
 
