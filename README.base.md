@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
+- 🟣 [docs(skills): recommend splitting inline locale blocks by section](https://github.com/otnc/kiritan/pull/71) - otnc/kiritan
+- 🟣 [chore: bump internal dependency ranges to the latest published patch versions](https://github.com/otnc/kiritan/pull/70) - otnc/kiritan
+- 🟣 [docs: align package README badges with kiritan's (closes #66)](https://github.com/otnc/kiritan/pull/69) - otnc/kiritan
+- 🟣 [docs: correct stale in-progress labels for the VS Code and Vim/Neovim extensions](https://github.com/otnc/kiritan/pull/68) - otnc/kiritan
 - 🟢 [Clarify that string.uuid and string.tuuid check the shape only](https://github.com/bufbuild/protovalidate/pull/533) - bufbuild/protovalidate
-- 🟣 [fix: fail loudly and retry when downloading the express suite tarball](https://github.com/otnc/exphono/pull/39) - otnc/exphono
-- 🟣 [fix: match Express 4 body-parser and query parser defaults under compat=4](https://github.com/otnc/exphono/pull/38) - otnc/exphono
-- 🟣 [chore: update hono and other dev dependencies](https://github.com/otnc/exphono/pull/37) - otnc/exphono
-- 🟣 [fix: use a port of path-to-regexp@0.1.x for compat=4 path syntax](https://github.com/otnc/exphono/pull/36) - otnc/exphono
 <!-- activity:end -->
 
 :::kiritan{locale=en}
