@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
+- 🟢 [fix(serve-static): respect q-values in Accept-Encoding for precompressed files](https://github.com/honojs/hono/pull/5436) - honojs/hono
 - 🟣 [docs(skills): recommend splitting inline locale blocks by section](https://github.com/otnc/kiritan/pull/71) - otnc/kiritan
 - 🟣 [chore: bump internal dependency ranges to the latest published patch versions](https://github.com/otnc/kiritan/pull/70) - otnc/kiritan
 - 🟣 [docs: align package README badges with kiritan's (closes #66)](https://github.com/otnc/kiritan/pull/69) - otnc/kiritan
 - 🟣 [docs: correct stale in-progress labels for the VS Code and Vim/Neovim extensions](https://github.com/otnc/kiritan/pull/68) - otnc/kiritan
-- 🟢 [Clarify that string.uuid and string.tuuid check the shape only](https://github.com/bufbuild/protovalidate/pull/533) - bufbuild/protovalidate
 
 <!-- activity:end -->
 
