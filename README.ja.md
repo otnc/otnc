@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [chore: 環境変数の例 .env.example を追加](https://github.com/oto-lab/funmary/pull/27) - oto-lab/funmary
-- 🟣 [docs: AGENTS.md から手元だけの資料への言及を外す](https://github.com/oto-lab/funmary/pull/26) - oto-lab/funmary
-- 🟣 [feat(db): DB のスキーマとマイグレーションを追加](https://github.com/oto-lab/funmary/pull/25) - oto-lab/funmary
-- 🟣 [feat(sources): 学生ポータルの休講一覧を解析する](https://github.com/oto-lab/funmary/pull/24) - oto-lab/funmary
-- 🟣 [ci: main とタグを otnc/funmary-mirror へ複製する](https://github.com/oto-lab/funmary/pull/23) - oto-lab/funmary
+- 🟢 [refactor: ワークフローの長いスクリプトを scripts/workflows に移す](https://github.com/oto-lab/funmary/pull/41) - oto-lab/funmary
+- 🟣 [feat: main の CI が通ったらリリースを作り、VPS へ反映する Actions を追加](https://github.com/oto-lab/funmary/pull/40) - oto-lab/funmary
+- 🟣 [feat: DB のバックアップと復元のコマンドと、毎日のタイマーを追加](https://github.com/oto-lab/funmary/pull/39) - oto-lab/funmary
+- 🟣 [feat: リリースの tar.gz を作り、VPS に置く unit と反映のスクリプトを追加](https://github.com/oto-lab/funmary/pull/38) - oto-lab/funmary
+- 🟣 [chore: 管理用コマンドの名前を funmary-admin にする](https://github.com/oto-lab/funmary/pull/34) - oto-lab/funmary
 
 <!-- activity:end -->
 
