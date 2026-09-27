@@ -66,11 +66,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟢 [refactor: ワークフローの長いスクリプトを scripts/workflows に移す](https://github.com/oto-lab/funmary/pull/41) - oto-lab/funmary
-- 🟣 [feat: main の CI が通ったらリリースを作り、VPS へ反映する Actions を追加](https://github.com/oto-lab/funmary/pull/40) - oto-lab/funmary
-- 🟣 [feat: DB のバックアップと復元のコマンドと、毎日のタイマーを追加](https://github.com/oto-lab/funmary/pull/39) - oto-lab/funmary
-- 🟣 [feat: リリースの tar.gz を作り、VPS に置く unit と反映のスクリプトを追加](https://github.com/oto-lab/funmary/pull/38) - oto-lab/funmary
-- 🟣 [chore: 管理用コマンドの名前を funmary-admin にする](https://github.com/oto-lab/funmary/pull/34) - oto-lab/funmary
+- 🟣 [chore: トークンの消費を抑えるスキルを足し、fix-unnatural-line-breaks を更新する](https://github.com/oto-lab/funmary/pull/86) - oto-lab/funmary
+- 🟣 [feat(core): クォーターの期間がなければ、前期か後期の期間をそのまま使う](https://github.com/oto-lab/funmary/pull/85) - oto-lab/funmary
+- 🟣 [fix(sources): 後期集中は冬期集中に、前期集中は夏期集中にまとめる](https://github.com/oto-lab/funmary/pull/84) - oto-lab/funmary
+- 🟣 [fix(sources): 開講期が前期でも、授業名に夏期集中とあれば夏期集中の科目にする](https://github.com/oto-lab/funmary/pull/83) - oto-lab/funmary
+- 🟣 [fix(sources): 公開シラバスのページ送りで、\_\_EVENTTARGET を重ねて送らないようにする](https://github.com/oto-lab/funmary/pull/82) - oto-lab/funmary
 
 <!-- activity:end -->
 
