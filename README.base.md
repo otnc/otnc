@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [chore: トークンの消費を抑えるスキルを足し、fix-unnatural-line-breaks を更新する](https://github.com/oto-lab/funmary/pull/86) - oto-lab/funmary
-- 🟣 [feat(core): クォーターの期間がなければ、前期か後期の期間をそのまま使う](https://github.com/oto-lab/funmary/pull/85) - oto-lab/funmary
-- 🟣 [fix(sources): 後期集中は冬期集中に、前期集中は夏期集中にまとめる](https://github.com/oto-lab/funmary/pull/84) - oto-lab/funmary
-- 🟣 [fix(sources): 開講期が前期でも、授業名に夏期集中とあれば夏期集中の科目にする](https://github.com/oto-lab/funmary/pull/83) - oto-lab/funmary
-- 🟣 [fix(sources): 公開シラバスのページ送りで、__EVENTTARGET を重ねて送らないようにする](https://github.com/oto-lab/funmary/pull/82) - oto-lab/funmary
+- 🟣 [feat: カレンダーの購読の URL を発行し、授業の予定を ICS で配る](https://github.com/oto-lab/funmary/pull/123) - oto-lab/funmary
+- 🟣 [fix(web): 招待コードの管理で、保存したあとにモードと上限の表示が元に戻らないようにする](https://github.com/oto-lab/funmary/pull/121) - oto-lab/funmary
+- 🟣 [chore(repo): ツールの設定ファイルを TypeScript から JavaScript にする](https://github.com/oto-lab/funmary/pull/119) - oto-lab/funmary
+- 🟣 [feat(web): 招待コードを画面から発行でき、発行できる人を 3 つのモードで切り替える](https://github.com/oto-lab/funmary/pull/117) - oto-lab/funmary
+- 🟢 [WIP chore(repo): リポジトリの参照を funmary-app/funmary に書き換える](https://github.com/oto-lab/funmary/pull/115) - oto-lab/funmary
 <!-- activity:end -->
 
 :::kiritan{locale=en}
