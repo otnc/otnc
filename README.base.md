@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [feat: カレンダーの購読の URL を発行し、授業の予定を ICS で配る](https://github.com/oto-lab/funmary/pull/123) - oto-lab/funmary
-- 🟣 [fix(web): 招待コードの管理で、保存したあとにモードと上限の表示が元に戻らないようにする](https://github.com/oto-lab/funmary/pull/121) - oto-lab/funmary
-- 🟣 [chore(repo): ツールの設定ファイルを TypeScript から JavaScript にする](https://github.com/oto-lab/funmary/pull/119) - oto-lab/funmary
-- 🟣 [feat(web): 招待コードを画面から発行でき、発行できる人を 3 つのモードで切り替える](https://github.com/oto-lab/funmary/pull/117) - oto-lab/funmary
-- 🟢 [WIP chore(repo): リポジトリの参照を funmary-app/funmary に書き換える](https://github.com/oto-lab/funmary/pull/115) - oto-lab/funmary
+- 🟣 [feat(web): 設定に、リポジトリ、ライセンス、Contributors への入口を作る](https://github.com/oto-lab/funmary/pull/191) - oto-lab/funmary
+- 🟣 [feat(web): 共有の曜日と時限をだれが登録できるかを選べるようにし、モデレーターの役割を足す](https://github.com/oto-lab/funmary/pull/189) - oto-lab/funmary
+- 🟣 [feat(web): 利用者が全体に影響する操作をしたときの記録 (監査ログ) を作る](https://github.com/oto-lab/funmary/pull/188) - oto-lab/funmary
+- 🟣 [feat(web): アプリとして使うの案内をホームに移し、科目の登録画面をタブで分ける](https://github.com/oto-lab/funmary/pull/187) - oto-lab/funmary
+- 🟣 [feat(web): 履修登録していない科目でも、授業の詳細から曜日と時限を足せるようにする](https://github.com/oto-lab/funmary/pull/186) - oto-lab/funmary
 <!-- activity:end -->
 
 :::kiritan{locale=en}
