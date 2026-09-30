@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [feat(web): 設定に、リポジトリ、ライセンス、Contributors への入口を作る](https://github.com/oto-lab/funmary/pull/191) - oto-lab/funmary
-- 🟣 [feat(web): 共有の曜日と時限をだれが登録できるかを選べるようにし、モデレーターの役割を足す](https://github.com/oto-lab/funmary/pull/189) - oto-lab/funmary
-- 🟣 [feat(web): 利用者が全体に影響する操作をしたときの記録 (監査ログ) を作る](https://github.com/oto-lab/funmary/pull/188) - oto-lab/funmary
-- 🟣 [feat(web): アプリとして使うの案内をホームに移し、科目の登録画面をタブで分ける](https://github.com/oto-lab/funmary/pull/187) - oto-lab/funmary
-- 🟣 [feat(web): 履修登録していない科目でも、授業の詳細から曜日と時限を足せるようにする](https://github.com/oto-lab/funmary/pull/186) - oto-lab/funmary
+- 🟣 [fix(web): メニューバーのアイコンが消えていたのを直し、週の時間割の見出しの貼り付けをやめる](https://github.com/oto-lab/funmary/pull/220) - oto-lab/funmary
+- 🟣 [fix(web): スマホ (Safari) でアイコンが表示されないことがあるのを直す](https://github.com/oto-lab/funmary/pull/219) - oto-lab/funmary
+- 🟣 [feat(web,db): 予定と科目を、メールアドレスで招待して限定公開できるようにする](https://github.com/oto-lab/funmary/pull/217) - oto-lab/funmary
+- 🟣 [fix(web): 情報をコピーした表示が固定されるのと、PWA で下のバーが狭くなるのを直す](https://github.com/oto-lab/funmary/pull/216) - oto-lab/funmary
+- 🟣 [fix(web): 週の時間割の見出しの重なりと、紹介画面の見出しの折り返しを直す](https://github.com/oto-lab/funmary/pull/212) - oto-lab/funmary
 
 <!-- activity:end -->
 
