@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [fix(web): メニューバーのアイコンが消えていたのを直し、週の時間割の見出しの貼り付けをやめる](https://github.com/oto-lab/funmary/pull/220) - oto-lab/funmary
-- 🟣 [fix(web): スマホ (Safari) でアイコンが表示されないことがあるのを直す](https://github.com/oto-lab/funmary/pull/219) - oto-lab/funmary
-- 🟣 [feat(web,db): 予定と科目を、メールアドレスで招待して限定公開できるようにする](https://github.com/oto-lab/funmary/pull/217) - oto-lab/funmary
-- 🟣 [fix(web): 情報をコピーした表示が固定されるのと、PWA で下のバーが狭くなるのを直す](https://github.com/oto-lab/funmary/pull/216) - oto-lab/funmary
-- 🟣 [fix(web): 週の時間割の見出しの重なりと、紹介画面の見出しの折り返しを直す](https://github.com/oto-lab/funmary/pull/212) - oto-lab/funmary
+- 🟣 [Learn from X (Twitter) posts alongside Misskey notes](https://github.com/otnc/mimicskey/pull/5) - otnc/mimicskey
+- 🟣 [fix(ci): 消えたリリースの復元で、古いコミットにタグを作れず 403 になるのを直す](https://github.com/oto-lab/funmary/pull/240) - oto-lab/funmary
+- 🟣 [fix(ci): 消えたリリースの復元で、タグを付けられず 403 になるのを直す](https://github.com/oto-lab/funmary/pull/239) - oto-lab/funmary
+- 🟣 [fix(ci): 古いリリースを消すのをやめ、消えたリリースを作り直すワークフローを足す](https://github.com/oto-lab/funmary/pull/238) - oto-lab/funmary
+- 🟣 [feat(repo): 外部の人の PR で、ライセンスへの同意を Cloudflare Workers の画面で求める](https://github.com/oto-lab/funmary/pull/236) - oto-lab/funmary
 <!-- activity:end -->
 
 :::kiritan{locale=en}
