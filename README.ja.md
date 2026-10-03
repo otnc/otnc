@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [Learn from X (Twitter) posts alongside Misskey notes](https://github.com/otnc/mimicskey/pull/5) - otnc/mimicskey
-- 🟣 [fix(ci): 消えたリリースの復元で、古いコミットにタグを作れず 403 になるのを直す](https://github.com/oto-lab/funmary/pull/240) - oto-lab/funmary
-- 🟣 [fix(ci): 消えたリリースの復元で、タグを付けられず 403 になるのを直す](https://github.com/oto-lab/funmary/pull/239) - oto-lab/funmary
-- 🟣 [fix(ci): 古いリリースを消すのをやめ、消えたリリースを作り直すワークフローを足す](https://github.com/oto-lab/funmary/pull/238) - oto-lab/funmary
-- 🟣 [feat(repo): 外部の人の PR で、ライセンスへの同意を Cloudflare Workers の画面で求める](https://github.com/oto-lab/funmary/pull/236) - oto-lab/funmary
+- 🟣 [fix(web): Discord 連携の認可コードの使い捨てと、失敗のログを足す](https://github.com/funmary-app/funmary/pull/265) - funmary-app/funmary
+- 🟣 [feat(web): 利用規約とプライバシーポリシーの公開ページを足す](https://github.com/funmary-app/funmary/pull/264) - funmary-app/funmary
+- 🟣 [feat(notify): 汎用 Webhook の data に構造化データを添える](https://github.com/funmary-app/funmary/pull/263) - funmary-app/funmary
+- 🟣 [fix(sources): 公開シラバスの詳細を読めなかった科目の名前と理由を残す](https://github.com/funmary-app/funmary/pull/262) - funmary-app/funmary
+- 🟣 [feat(api): 通知のフィード (RSS、Atom、JSON Feed) を配る](https://github.com/funmary-app/funmary/pull/261) - funmary-app/funmary
 
 <!-- activity:end -->
 
