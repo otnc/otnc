@@ -66,11 +66,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [fix(web): Discord 連携の認可コードの使い捨てと、失敗のログを足す](https://github.com/funmary-app/funmary/pull/265) - funmary-app/funmary
-- 🟣 [feat(web): 利用規約とプライバシーポリシーの公開ページを足す](https://github.com/funmary-app/funmary/pull/264) - funmary-app/funmary
-- 🟣 [feat(notify): 汎用 Webhook の data に構造化データを添える](https://github.com/funmary-app/funmary/pull/263) - funmary-app/funmary
-- 🟣 [fix(sources): 公開シラバスの詳細を読めなかった科目の名前と理由を残す](https://github.com/funmary-app/funmary/pull/262) - funmary-app/funmary
-- 🟣 [feat(api): 通知のフィード (RSS、Atom、JSON Feed) を配る](https://github.com/funmary-app/funmary/pull/261) - funmary-app/funmary
+- 🟣 [TypeScript移行と開発基盤をmainへ統合](https://github.com/otnc/better-github-utils/pull/14) - otnc/better-github-utils
+- 🟣 [Kiritanでドキュメントとスキル構成を統一](https://github.com/otnc/better-github-utils/pull/13) - otnc/better-github-utils
+- 🟣 [READMEに開発とRelease手順を追加](https://github.com/otnc/better-github-utils/pull/12) - otnc/better-github-utils
+- 🟣 [ビルドとReleaseワークフローを追加](https://github.com/otnc/better-github-utils/pull/11) - otnc/better-github-utils
+- 🟣 [CIワークフローを追加](https://github.com/otnc/better-github-utils/pull/10) - otnc/better-github-utils
 
 <!-- activity:end -->
 
