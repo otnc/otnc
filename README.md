@@ -66,11 +66,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [TypeScript移行と開発基盤をmainへ統合](https://github.com/otnc/better-github-utils/pull/14) - otnc/better-github-utils
-- 🟣 [Kiritanでドキュメントとスキル構成を統一](https://github.com/otnc/better-github-utils/pull/13) - otnc/better-github-utils
-- 🟣 [READMEに開発とRelease手順を追加](https://github.com/otnc/better-github-utils/pull/12) - otnc/better-github-utils
-- 🟣 [ビルドとReleaseワークフローを追加](https://github.com/otnc/better-github-utils/pull/11) - otnc/better-github-utils
-- 🟣 [CIワークフローを追加](https://github.com/otnc/better-github-utils/pull/10) - otnc/better-github-utils
+- 🟣 [docs: README の構造を修正、badgeを中央揃え](https://github.com/funmary-app/funmary/pull/289) - funmary-app/funmary
+- 🟣 [docs: README とトップページを、できるようになったことに合わせて更新する](https://github.com/funmary-app/funmary/pull/288) - funmary-app/funmary
+- 🟣 [docs(repo): コメントと文言から、設計書への参照を取り除く](https://github.com/funmary-app/funmary/pull/287) - funmary-app/funmary
+- 🟣 [docs(docs): 公開用の設計書の 4 章から 7 章を足す (#42)](https://github.com/funmary-app/funmary/pull/286) - funmary-app/funmary
+- 🟣 [docs(docs): 公開用の設計書の 1 章から 3 章を足す (#42)](https://github.com/funmary-app/funmary/pull/285) - funmary-app/funmary
 
 <!-- activity:end -->
 
