@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [docs: README の構造を修正、badgeを中央揃え](https://github.com/funmary-app/funmary/pull/289) - funmary-app/funmary
-- 🟣 [docs: README とトップページを、できるようになったことに合わせて更新する](https://github.com/funmary-app/funmary/pull/288) - funmary-app/funmary
-- 🟣 [docs(repo): コメントと文言から、設計書への参照を取り除く](https://github.com/funmary-app/funmary/pull/287) - funmary-app/funmary
-- 🟣 [docs(docs): 公開用の設計書の 4 章から 7 章を足す (#42)](https://github.com/funmary-app/funmary/pull/286) - funmary-app/funmary
-- 🟣 [docs(docs): 公開用の設計書の 1 章から 3 章を足す (#42)](https://github.com/funmary-app/funmary/pull/285) - funmary-app/funmary
+- 🟢 [chore: Wrangler から cf CLI に移す](https://github.com/funmary-app/github-discord-relay/pull/1) - funmary-app/github-discord-relay
+- 🟣 [refactor(sources): User-Agent を、ライブラリの人気順のリストから取る](https://github.com/funmary-app/funmary/pull/320) - funmary-app/funmary
+- 🟣 [fix(db): データの書き出しに、科目の略称を入れる](https://github.com/funmary-app/funmary/pull/316) - funmary-app/funmary
+- 🟣 [docs(docs): プロダクトの方針と、画面のデザインの方針の要約を足す](https://github.com/funmary-app/funmary/pull/315) - funmary-app/funmary
+- 🟣 [refactor(web): すべてのスタイルを SCSS にし、縦と横の並べ方を mixin にまとめる](https://github.com/funmary-app/funmary/pull/314) - funmary-app/funmary
 <!-- activity:end -->
 
 :::kiritan{locale=en}
