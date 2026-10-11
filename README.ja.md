@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
+- 🟣 [fix(api): MCP のクライアントの誤りが 500 になる不具合を直す](https://github.com/funmary-app/funmary/pull/326) - funmary-app/funmary
+- 🟣 [fix(web): スマホの Safari で、時間割のカレンダーから日付を選べない不具合を直す](https://github.com/funmary-app/funmary/pull/324) - funmary-app/funmary
+- 🟣 [ci(ci): 本番のドメインの検査で、複数のドメインを調べられるようにする](https://github.com/funmary-app/funmary/pull/322) - funmary-app/funmary
 - 🟢 [chore: Wrangler から cf CLI に移す](https://github.com/funmary-app/github-discord-relay/pull/1) - funmary-app/github-discord-relay
 - 🟣 [refactor(sources): User-Agent を、ライブラリの人気順のリストから取る](https://github.com/funmary-app/funmary/pull/320) - funmary-app/funmary
-- 🟣 [fix(db): データの書き出しに、科目の略称を入れる](https://github.com/funmary-app/funmary/pull/316) - funmary-app/funmary
-- 🟣 [docs(docs): プロダクトの方針と、画面のデザインの方針の要約を足す](https://github.com/funmary-app/funmary/pull/315) - funmary-app/funmary
-- 🟣 [refactor(web): すべてのスタイルを SCSS にし、縦と横の並べ方を mixin にまとめる](https://github.com/funmary-app/funmary/pull/314) - funmary-app/funmary
 
 <!-- activity:end -->
 
