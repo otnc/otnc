@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [fix(api): MCP のクライアントの誤りが 500 になる不具合を直す](https://github.com/funmary-app/funmary/pull/326) - funmary-app/funmary
-- 🟣 [fix(web): スマホの Safari で、時間割のカレンダーから日付を選べない不具合を直す](https://github.com/funmary-app/funmary/pull/324) - funmary-app/funmary
-- 🟣 [ci(ci): 本番のドメインの検査で、複数のドメインを調べられるようにする](https://github.com/funmary-app/funmary/pull/322) - funmary-app/funmary
-- 🟢 [chore: Wrangler から cf CLI に移す](https://github.com/funmary-app/github-discord-relay/pull/1) - funmary-app/github-discord-relay
-- 🟣 [refactor(sources): User-Agent を、ライブラリの人気順のリストから取る](https://github.com/funmary-app/funmary/pull/320) - funmary-app/funmary
+- 🟣 [docs: document WebSub Link headers and Atom replies for comments](https://github.com/otnc/hono-feed/pull/158) - otnc/hono-feed
+- 🟣 [feat: map item.comments to Atom link rel=replies](https://github.com/otnc/hono-feed/pull/157) - otnc/hono-feed
+- 🟣 [feat: send WebSub hub and self Link headers from serveFeed](https://github.com/otnc/hono-feed/pull/156) - otnc/hono-feed
+- 🟣 [docs: make README, CONTRIBUTING and HONOFEED_DEP bilingual with Kiritan](https://github.com/otnc/hono-feed/pull/155) - otnc/hono-feed
+- 🟣 [ci: update GitHub Actions to versions that run on Node.js 24](https://github.com/otnc/hono-feed/pull/154) - otnc/hono-feed
 <!-- activity:end -->
 
 :::kiritan{locale=en}
