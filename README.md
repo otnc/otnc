@@ -66,11 +66,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [docs: document WebSub Link headers and Atom replies for comments](https://github.com/otnc/hono-feed/pull/158) - otnc/hono-feed
-- 🟣 [feat: map item.comments to Atom link rel=replies](https://github.com/otnc/hono-feed/pull/157) - otnc/hono-feed
-- 🟣 [feat: send WebSub hub and self Link headers from serveFeed](https://github.com/otnc/hono-feed/pull/156) - otnc/hono-feed
-- 🟣 [docs: make README, CONTRIBUTING and HONOFEED\_DEP bilingual with Kiritan](https://github.com/otnc/hono-feed/pull/155) - otnc/hono-feed
-- 🟣 [ci: update GitHub Actions to versions that run on Node.js 24](https://github.com/otnc/hono-feed/pull/154) - otnc/hono-feed
+- 🟢 [feat: add the workers target for Workers with static assets](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/29) - otnc/astro-adapter-cloudflare-pages
+- 🟣 [feat: replace the Worker entry with workerEntryPoint](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/28) - otnc/astro-adapter-cloudflare-pages
+- 🟣 [feat: read bindings from wrangler.jsonc and wrangler.toml for Miniflare](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/27) - otnc/astro-adapter-cloudflare-pages
+- 🟣 [refactor: split the preview entrypoint and share the Miniflare binding options](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/26) - otnc/astro-adapter-cloudflare-pages
+- 🟣 [feat: import .wasm, .bin and .txt files with cloudflareModules](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/25) - otnc/astro-adapter-cloudflare-pages
 
 <!-- activity:end -->
 
