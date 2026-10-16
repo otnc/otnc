@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟢 [feat: add the workers target for Workers with static assets](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/29) - otnc/astro-adapter-cloudflare-pages
-- 🟣 [feat: replace the Worker entry with workerEntryPoint](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/28) - otnc/astro-adapter-cloudflare-pages
-- 🟣 [feat: read bindings from wrangler.jsonc and wrangler.toml for Miniflare](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/27) - otnc/astro-adapter-cloudflare-pages
-- 🟣 [refactor: split the preview entrypoint and share the Miniflare binding options](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/26) - otnc/astro-adapter-cloudflare-pages
-- 🟣 [feat: import .wasm, .bin and .txt files with cloudflareModules](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/25) - otnc/astro-adapter-cloudflare-pages
+- 🟢 [chore: manage the workspace with pnpm](https://github.com/puruslang/purus/pull/90) - puruslang/purus
+- 🟣 [docs: this repository moved to puruslang/purus](https://github.com/puruslang/prettier-plugin/pull/2) - puruslang/prettier-plugin
+- 🟣 [docs: this repository moved to puruslang/purus](https://github.com/puruslang/linter/pull/3) - puruslang/linter
+- 🟣 [ci: only compiler releases take the repository Latest badge](https://github.com/puruslang/purus/pull/88) - puruslang/purus
+- 🟣 [docs: changelog entries for the first monorepo releases](https://github.com/puruslang/purus/pull/87) - puruslang/purus
 
 <!-- activity:end -->
 
