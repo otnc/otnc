@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟢 [chore: manage the workspace with pnpm](https://github.com/puruslang/purus/pull/90) - puruslang/purus
-- 🟣 [docs: this repository moved to puruslang/purus](https://github.com/puruslang/prettier-plugin/pull/2) - puruslang/prettier-plugin
-- 🟣 [docs: this repository moved to puruslang/purus](https://github.com/puruslang/linter/pull/3) - puruslang/linter
-- 🟣 [ci: only compiler releases take the repository Latest badge](https://github.com/puruslang/purus/pull/88) - puruslang/purus
-- 🟣 [docs: changelog entries for the first monorepo releases](https://github.com/puruslang/purus/pull/87) - puruslang/purus
+- 🟣 [docs: フォントや引用コードのライセンスを記録するファイルを追加](https://github.com/jphacks/sp_2603/pull/5) - jphacks/sp_2603
+- 🟣 [chore: impeccable の skill を削除](https://github.com/jphacks/sp_2603/pull/4) - jphacks/sp_2603
+- 🟣 [chore: プロダクト名を Fllooat に変更](https://github.com/jphacks/sp_2603/pull/3) - jphacks/sp_2603
+- 🟣 [docs: コミットの scope の付け方を AGENTS.md に追記](https://github.com/jphacks/sp_2603/pull/2) - jphacks/sp_2603
+- 🟣 [chore: モノレポの開発環境を構築](https://github.com/jphacks/sp_2603/pull/1) - jphacks/sp_2603
 <!-- activity:end -->
 
 :::kiritan{locale=en}
