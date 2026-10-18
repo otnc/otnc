@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [docs: フォントや引用コードのライセンスを記録するファイルを追加](https://github.com/jphacks/sp_2603/pull/5) - jphacks/sp\_2603
-- 🟣 [chore: impeccable の skill を削除](https://github.com/jphacks/sp_2603/pull/4) - jphacks/sp\_2603
-- 🟣 [chore: プロダクト名を Fllooat に変更](https://github.com/jphacks/sp_2603/pull/3) - jphacks/sp\_2603
-- 🟣 [docs: コミットの scope の付け方を AGENTS.md に追記](https://github.com/jphacks/sp_2603/pull/2) - jphacks/sp\_2603
-- 🟣 [chore: モノレポの開発環境を構築](https://github.com/jphacks/sp_2603/pull/1) - jphacks/sp\_2603
+- 🟣 [feat: ルームの退出を作り、ルームにいる人を /join からルームに戻す](https://github.com/jphacks/sp_2603/pull/36) - jphacks/sp\_2603
+- 🟣 [fix(web): 入室画面とログイン画面のエラーをフォームの上に出す](https://github.com/jphacks/sp_2603/pull/35) - jphacks/sp\_2603
+- 🟣 [feat(web): 入室画面を新しいデザインに合わせる](https://github.com/jphacks/sp_2603/pull/33) - jphacks/sp\_2603
+- 🟣 [fix(web): 入室画面の「今のルームに戻る」リンクを消す](https://github.com/jphacks/sp_2603/pull/32) - jphacks/sp\_2603
+- 🟣 [feat(web): ルーム入室画面を Figma のデザインに合わせる](https://github.com/jphacks/sp_2603/pull/31) - jphacks/sp\_2603
 
 <!-- activity:end -->
 
