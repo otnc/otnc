@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [feat: ルームの退出を作り、ルームにいる人を /join からルームに戻す](https://github.com/jphacks/sp_2603/pull/36) - jphacks/sp_2603
-- 🟣 [fix(web): 入室画面とログイン画面のエラーをフォームの上に出す](https://github.com/jphacks/sp_2603/pull/35) - jphacks/sp_2603
-- 🟣 [feat(web): 入室画面を新しいデザインに合わせる](https://github.com/jphacks/sp_2603/pull/33) - jphacks/sp_2603
-- 🟣 [fix(web): 入室画面の「今のルームに戻る」リンクを消す](https://github.com/jphacks/sp_2603/pull/32) - jphacks/sp_2603
-- 🟣 [feat(web): ルーム入室画面を Figma のデザインに合わせる](https://github.com/jphacks/sp_2603/pull/31) - jphacks/sp_2603
+- 🟣 [docs: README の表紙を発表スライドにし、使い方とセキュリティへの配慮などを追記](https://github.com/jphacks/sp_2603/pull/54) - jphacks/sp_2603
+- 🟣 [docs: README のフロントエンドに、左右にスクロールできると知らせる動きを追記](https://github.com/jphacks/sp_2603/pull/53) - jphacks/sp_2603
+- 🟣 [feat(web): ルームを開いたら気球の並びを左右に 1 回ずつずらし、スクロールできることを知らせる](https://github.com/jphacks/sp_2603/pull/51) - jphacks/sp_2603
+- 🟣 [docs: README.mdにバックエンドの処理内容を追加](https://github.com/jphacks/sp_2603/pull/50) - jphacks/sp_2603
+- 🟣 [fix(web): 編集画面の中だけをスクロールでき、ホーム画面から開いても下に白い帯が出ないようにする](https://github.com/jphacks/sp_2603/pull/49) - jphacks/sp_2603
 <!-- activity:end -->
 
 :::kiritan{locale=en}
