@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [docs: README の表紙を発表スライドにし、使い方とセキュリティへの配慮などを追記](https://github.com/jphacks/sp_2603/pull/54) - jphacks/sp\_2603
-- 🟣 [docs: README のフロントエンドに、左右にスクロールできると知らせる動きを追記](https://github.com/jphacks/sp_2603/pull/53) - jphacks/sp\_2603
-- 🟣 [feat(web): ルームを開いたら気球の並びを左右に 1 回ずつずらし、スクロールできることを知らせる](https://github.com/jphacks/sp_2603/pull/51) - jphacks/sp\_2603
-- 🟣 [docs: README.mdにバックエンドの処理内容を追加](https://github.com/jphacks/sp_2603/pull/50) - jphacks/sp\_2603
-- 🟣 [fix(web): 編集画面の中だけをスクロールでき、ホーム画面から開いても下に白い帯が出ないようにする](https://github.com/jphacks/sp_2603/pull/49) - jphacks/sp\_2603
+- 🟣 [Profile と Settings のポップアップを追加](https://github.com/mofumofupop/universe/pull/7) - mofumofupop/universe
+- 🟣 [認証情報が合わないときはログイン画面に戻す](https://github.com/mofumofupop/universe/pull/6) - mofumofupop/universe
+- 🟣 [デプロイ後に RSC ペイロードの生テキストが表示される問題を修正](https://github.com/mofumofupop/universe/pull/5) - mofumofupop/universe
+- 🟣 [パスワードを PBKDF2 で強化](https://github.com/mofumofupop/universe/pull/4) - mofumofupop/universe
+- 🟣 [main への push で自動デプロイ / ドメインを universe.mfmf.moe に一本化](https://github.com/mofumofupop/universe/pull/3) - mofumofupop/universe
 
 <!-- activity:end -->
 
