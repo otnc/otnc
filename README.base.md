@@ -106,11 +106,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
+- 🟣 [docs(deploy): .env.ssh.example の OpenSSH のパスに、消えていた区切りを戻す](https://github.com/funmary-app/funmary/pull/373) - funmary-app/funmary
+- 🟣 [fix(deploy): env:upload と vps:restart を公開鍵認証だけで接続させる](https://github.com/funmary-app/funmary/pull/372) - funmary-app/funmary
 - 🟣 [Profile と Settings のポップアップを追加](https://github.com/mofumofupop/universe/pull/7) - mofumofupop/universe
 - 🟣 [認証情報が合わないときはログイン画面に戻す](https://github.com/mofumofupop/universe/pull/6) - mofumofupop/universe
 - 🟣 [デプロイ後に RSC ペイロードの生テキストが表示される問題を修正](https://github.com/mofumofupop/universe/pull/5) - mofumofupop/universe
-- 🟣 [パスワードを PBKDF2 で強化](https://github.com/mofumofupop/universe/pull/4) - mofumofupop/universe
-- 🟣 [main への push で自動デプロイ / ドメインを universe.mfmf.moe に一本化](https://github.com/mofumofupop/universe/pull/3) - mofumofupop/universe
 <!-- activity:end -->
 
 :::kiritan{locale=en}
