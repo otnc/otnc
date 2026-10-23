@@ -66,11 +66,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [docs(deploy): .env.ssh.example の OpenSSH のパスに、消えていた区切りを戻す](https://github.com/funmary-app/funmary/pull/373) - funmary-app/funmary
-- 🟣 [fix(deploy): env:upload と vps:restart を公開鍵認証だけで接続させる](https://github.com/funmary-app/funmary/pull/372) - funmary-app/funmary
-- 🟣 [Profile と Settings のポップアップを追加](https://github.com/mofumofupop/universe/pull/7) - mofumofupop/universe
-- 🟣 [認証情報が合わないときはログイン画面に戻す](https://github.com/mofumofupop/universe/pull/6) - mofumofupop/universe
-- 🟣 [デプロイ後に RSC ペイロードの生テキストが表示される問題を修正](https://github.com/mofumofupop/universe/pull/5) - mofumofupop/universe
+- 🟣 [feat(web): タブと切り替えのボタンを SMUI の部品にする](https://github.com/funmary-app/funmary/pull/394) - funmary-app/funmary
+- 🟣 [feat(web): 確認と操作の知らせを、SMUI のダイアログと snackbar にする](https://github.com/funmary-app/funmary/pull/392) - funmary-app/funmary
+- 🟣 [feat(web): チェックボックスとラジオボタンを SMUI の部品にする](https://github.com/funmary-app/funmary/pull/390) - funmary-app/funmary
+- 🟣 [feat(web): SMUI の部品を使えるよう、容量の上限と CSS の読み方を変える](https://github.com/funmary-app/funmary/pull/388) - funmary-app/funmary
+- 🟣 [refactor: 使っていないコードと、書き写したコードを減らす](https://github.com/funmary-app/funmary/pull/386) - funmary-app/funmary
 
 <!-- activity:end -->
 
