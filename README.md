@@ -23,7 +23,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=500&width=300&lines=Hi+there%2C+I'm+otoneko.;Full-stack%3F+developer;Funny+OSS+developer;OSS+contributor;Developer+community+staff" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=500&width=300&lines=Hi+there%2C+I'm+otoneko.;Half-stack%3F+developer;Funny+OSS+developer;OSS+contributor;Developer+community+staff" alt="Typing SVG" />
 
 I'm swimming in the ocean, forever and ever...
 
