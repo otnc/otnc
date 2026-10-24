@@ -66,11 +66,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [feat(web): タブと切り替えのボタンを SMUI の部品にする](https://github.com/funmary-app/funmary/pull/394) - funmary-app/funmary
-- 🟣 [feat(web): 確認と操作の知らせを、SMUI のダイアログと snackbar にする](https://github.com/funmary-app/funmary/pull/392) - funmary-app/funmary
-- 🟣 [feat(web): チェックボックスとラジオボタンを SMUI の部品にする](https://github.com/funmary-app/funmary/pull/390) - funmary-app/funmary
-- 🟣 [feat(web): SMUI の部品を使えるよう、容量の上限と CSS の読み方を変える](https://github.com/funmary-app/funmary/pull/388) - funmary-app/funmary
-- 🟣 [refactor: 使っていないコードと、書き写したコードを減らす](https://github.com/funmary-app/funmary/pull/386) - funmary-app/funmary
+- 🟣 [fix(web): 授業の詳細画面から、HOPE のコースのリンクを消す](https://github.com/funmary-app/funmary/pull/441) - funmary-app/funmary
+- 🟣 [chore(repo): Node.js の対応を 24 以上にする](https://github.com/funmary-app/funmary/pull/440) - funmary-app/funmary
+- 🟣 [ci: Node.js 24 と 26 の両方で動く形にする](https://github.com/funmary-app/funmary/pull/439) - funmary-app/funmary
+- 🟣 [feat: 学期の切り替わりで、次の学期の履修登録を促す](https://github.com/funmary-app/funmary/pull/437) - funmary-app/funmary
+- 🟣 [feat(web): 休講、補講、教室変更の一覧の画面を作る](https://github.com/funmary-app/funmary/pull/436) - funmary-app/funmary
 
 <!-- activity:end -->
 
