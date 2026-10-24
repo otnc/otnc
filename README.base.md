@@ -44,6 +44,30 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 </div>
 
 :::kiritan{locale=en}
+## Projects
+
+Two organizations I run for my main OSS projects.
+
+- **[OpenMiQ](https://github.com/OpenMiQ)**: Make it a Quote bots for Discord and Misskey, a self-hostable API, and [makeitaquote](https://www.npmjs.com/package/makeitaquote), the library that draws the quote images
+- **[Milkee](https://github.com/coffeescript-milkee)**: A build tool for CoffeeScript, configured with a single `coffee.config.cjs`, and its plugins
+:::
+
+:::kiritan{locale=ja}
+## プロジェクト
+
+メインの OSS を置いている Organization です.
+
+- **[OpenMiQ](https://github.com/OpenMiQ)**: Discord と Misskey で使える Make it a Quote の Bot と, セルフホストできる API, 引用画像を描くライブラリ [makeitaquote](https://www.npmjs.com/package/makeitaquote)
+- **[Milkee](https://github.com/coffeescript-milkee)**: `coffee.config.cjs` 1 つで設定できる CoffeeScript のビルドツールと, そのプラグイン
+:::
+
+<div align="center">
+
+<a href="https://github.com/OpenMiQ"><img src="https://github.com/OpenMiQ.png?size=160" alt="OpenMiQ" width="80" /></a> <a href="https://github.com/coffeescript-milkee"><img src="https://github.com/coffeescript-milkee.png?size=160" alt="Milkee" width="80" /></a>
+
+</div>
+
+:::kiritan{locale=en}
 ## Stats
 
 <div align="center">
