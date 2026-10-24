@@ -79,11 +79,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [fix(web): 授業の詳細画面から、HOPE のコースのリンクを消す](https://github.com/funmary-app/funmary/pull/441) - funmary-app/funmary
-- 🟣 [chore(repo): Node.js の対応を 24 以上にする](https://github.com/funmary-app/funmary/pull/440) - funmary-app/funmary
-- 🟣 [ci: Node.js 24 と 26 の両方で動く形にする](https://github.com/funmary-app/funmary/pull/439) - funmary-app/funmary
-- 🟣 [feat: 学期の切り替わりで、次の学期の履修登録を促す](https://github.com/funmary-app/funmary/pull/437) - funmary-app/funmary
-- 🟣 [feat(web): 休講、補講、教室変更の一覧の画面を作る](https://github.com/funmary-app/funmary/pull/436) - funmary-app/funmary
+- 🟣 [fix: support @napi-rs/canvas 1.0.12+ and require ^1.0.13](https://github.com/OpenMiQ/makeitaquote/pull/103) - OpenMiQ/makeitaquote
+- 🟣 [fix: quote font family names so @napi-rs/canvas 1.0.12+ accepts ctx.font](https://github.com/OpenMiQ/makeitaquote/pull/102) - OpenMiQ/makeitaquote
+- 🟣 [chore: move repository to the OpenMiQ organization](https://github.com/OpenMiQ/api/pull/2) - OpenMiQ/api
+- 🟣 [chore: move repository to the OpenMiQ organization](https://github.com/OpenMiQ/misskey-bot/pull/1) - OpenMiQ/misskey-bot
+- 🟣 [chore: move repository to the OpenMiQ organization](https://github.com/OpenMiQ/discord-twitter-quote-bot/pull/2) - OpenMiQ/discord-twitter-quote-bot
 
 <!-- activity:end -->
 
