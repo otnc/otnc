@@ -46,10 +46,13 @@ Team: [@oto-home](https://github.com/oto-home) / Personal: [@oto-lab](https://gi
 :::kiritan{locale=en}
 ## Projects
 
-Two organizations I run for my main OSS projects.
+Organizations I run for my main OSS projects.
 
+- **[Purus](https://github.com/puruslang)**: A programming language you can write without the Shift key. It compiles to JavaScript ([purus.work](https://purus.work/))
 - **[OpenMiQ](https://github.com/OpenMiQ)**: Make it a Quote bots for Discord and Misskey, a self-hostable API, and [makeitaquote](https://www.npmjs.com/package/makeitaquote), the library that draws the quote images
-- **[Milkee](https://github.com/coffeescript-milkee)**: A build tool for CoffeeScript, configured with a single `coffee.config.cjs`, and its plugins
+- **[Milkee](https://github.com/coffeescript-milkee)**: A build tool for CoffeeScript, configured with a single `coffee.config.cjs`, and its plugins ([milkee.org](https://milkee.org))
+- **[Funmary](https://github.com/funmary-app)**: A web app for students at Future University Hakodate that puts class cancellations, make-up classes and room changes onto their own timetable ([funmary.app](https://funmary.app))
+- **[Indentier](https://github.com/indentier)**: A silly formatter that hides `{`, `}`, `;` and trailing `,` in the right margin, so curly-brace languages look like Python or Ruby ([indentier.github.io](https://indentier.github.io/))
 :::
 
 :::kiritan{locale=ja}
@@ -57,13 +60,16 @@ Two organizations I run for my main OSS projects.
 
 メインの OSS を置いている Organization です.
 
+- **[Purus](https://github.com/puruslang)**: Shift キーを押さずに書けるプログラミング言語. JavaScript にコンパイルされます ([purus.work](https://purus.work/))
 - **[OpenMiQ](https://github.com/OpenMiQ)**: Discord と Misskey で使える Make it a Quote の Bot と, セルフホストできる API, 引用画像を描くライブラリ [makeitaquote](https://www.npmjs.com/package/makeitaquote)
-- **[Milkee](https://github.com/coffeescript-milkee)**: `coffee.config.cjs` 1 つで設定できる CoffeeScript のビルドツールと, そのプラグイン
+- **[Milkee](https://github.com/coffeescript-milkee)**: `coffee.config.cjs` 1 つで設定できる CoffeeScript のビルドツールと, そのプラグイン ([milkee.org](https://milkee.org))
+- **[Funmary](https://github.com/funmary-app)**: 公立はこだて未来大学の学生向けの Web アプリ. 休講, 補講, 教室変更を自分の時間割にまとめて出します ([funmary.app](https://funmary.app))
+- **[Indentier](https://github.com/indentier)**: `{` `}` `;` と末尾の `,` を右端に追いやって, 波括弧の言語を Python や Ruby のように見せるネタ系フォーマッター ([indentier.github.io](https://indentier.github.io/))
 :::
 
 <div align="center">
 
-<a href="https://github.com/OpenMiQ"><img src="https://github.com/OpenMiQ.png?size=160" alt="OpenMiQ" width="80" /></a> <a href="https://github.com/coffeescript-milkee"><img src="https://github.com/coffeescript-milkee.png?size=160" alt="Milkee" width="80" /></a>
+<a href="https://github.com/puruslang"><img src="https://github.com/puruslang.png?size=160" alt="Purus" width="80" /></a> <a href="https://github.com/OpenMiQ"><img src="https://github.com/OpenMiQ.png?size=160" alt="OpenMiQ" width="80" /></a> <a href="https://github.com/coffeescript-milkee"><img src="https://github.com/coffeescript-milkee.png?size=160" alt="Milkee" width="80" /></a> <a href="https://github.com/funmary-app"><img src="https://github.com/funmary-app.png?size=160" alt="Funmary" width="80" /></a> <a href="https://github.com/indentier"><img src="https://github.com/indentier.png?size=160" alt="Indentier" width="80" /></a>
 
 </div>
 
