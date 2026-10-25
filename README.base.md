@@ -136,11 +136,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
+- 🟣 [chore: update misskey-js to 2026.10.1](https://github.com/OpenMiQ/misskey-bot/pull/2) - OpenMiQ/misskey-bot
+- 🟣 [chore: update dependencies](https://github.com/OpenMiQ/makeitaquote/pull/104) - OpenMiQ/makeitaquote
+- 🟣 [chore: update dependencies](https://github.com/OpenMiQ/makeitaquote-utils/pull/2) - OpenMiQ/makeitaquote-utils
 - 🟣 [fix: support @napi-rs/canvas 1.0.12+ and require ^1.0.13](https://github.com/OpenMiQ/makeitaquote/pull/103) - OpenMiQ/makeitaquote
 - 🟣 [fix: quote font family names so @napi-rs/canvas 1.0.12+ accepts ctx.font](https://github.com/OpenMiQ/makeitaquote/pull/102) - OpenMiQ/makeitaquote
-- 🟣 [chore: move repository to the OpenMiQ organization](https://github.com/OpenMiQ/api/pull/2) - OpenMiQ/api
-- 🟣 [chore: move repository to the OpenMiQ organization](https://github.com/OpenMiQ/misskey-bot/pull/1) - OpenMiQ/misskey-bot
-- 🟣 [chore: move repository to the OpenMiQ organization](https://github.com/OpenMiQ/discord-twitter-quote-bot/pull/2) - OpenMiQ/discord-twitter-quote-bot
 <!-- activity:end -->
 
 :::kiritan{locale=en}
