@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [chore: update misskey-js to 2026.10.1](https://github.com/OpenMiQ/misskey-bot/pull/2) - OpenMiQ/misskey-bot
-- 🟣 [chore: update dependencies](https://github.com/OpenMiQ/makeitaquote/pull/104) - OpenMiQ/makeitaquote
-- 🟣 [chore: update dependencies](https://github.com/OpenMiQ/makeitaquote-utils/pull/2) - OpenMiQ/makeitaquote-utils
-- 🟣 [fix: support @napi-rs/canvas 1.0.12+ and require ^1.0.13](https://github.com/OpenMiQ/makeitaquote/pull/103) - OpenMiQ/makeitaquote
-- 🟣 [fix: quote font family names so @napi-rs/canvas 1.0.12+ accepts ctx.font](https://github.com/OpenMiQ/makeitaquote/pull/102) - OpenMiQ/makeitaquote
+- 🟣 [ci: skip the checks for docs-only changes](https://github.com/otnc/migenv/pull/19) - otnc/migenv
+- 🟣 [docs: add Valibot to the validation libraries in the README](https://github.com/otnc/migenv/pull/18) - otnc/migenv
+- 🟣 [fix: read quotes the way dotenv does](https://github.com/otnc/migenv/pull/17) - otnc/migenv
+- 🟣 [docs: document the remaining public types and two non-obvious rules](https://github.com/otnc/migenv/pull/16) - otnc/migenv
+- 🟣 [test: check that dotenv reads the same values before and after align](https://github.com/otnc/migenv/pull/15) - otnc/migenv
 
 <!-- activity:end -->
 
