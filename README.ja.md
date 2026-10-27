@@ -82,11 +82,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [ci: skip the checks for docs-only changes](https://github.com/otnc/migenv/pull/19) - otnc/migenv
-- 🟣 [docs: add Valibot to the validation libraries in the README](https://github.com/otnc/migenv/pull/18) - otnc/migenv
-- 🟣 [fix: read quotes the way dotenv does](https://github.com/otnc/migenv/pull/17) - otnc/migenv
-- 🟣 [docs: document the remaining public types and two non-obvious rules](https://github.com/otnc/migenv/pull/16) - otnc/migenv
-- 🟣 [test: check that dotenv reads the same values before and after align](https://github.com/otnc/migenv/pull/15) - otnc/migenv
+- 🟢 [feat: add template key migrations and prepare v0.2.1](https://github.com/otnc/migenv/pull/21) - otnc/migenv
+- 🟣 [test(compat): cover \*.kiritanconfig loading on the oldest supported Node.js](https://github.com/otnc/kiritan/pull/79) - otnc/kiritan
+- 🟣 [fix(ci): build release packages after the version bump](https://github.com/otnc/kiritan/pull/78) - otnc/kiritan
+- 🟣 [refactor(kiritan): replace yargs with citty for the CLI](https://github.com/otnc/kiritan/pull/77) - otnc/kiritan
+- 🟣 [chore(kiritan): bump @kiritan/runtime to ^0.3.0](https://github.com/otnc/kiritan/pull/76) - otnc/kiritan
 
 <!-- activity:end -->
 
