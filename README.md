@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟢 [feat: add template key migrations and prepare v0.2.1](https://github.com/otnc/migenv/pull/21) - otnc/migenv
+- 🟣 [feat: add setValues for explicit env updates in v0.2.2](https://github.com/otnc/migenv/pull/23) - otnc/migenv
+- 🟣 [fix: restore sidebar lyrics on recent Spotify versions](https://github.com/otnc/spotify-lyrics-position/pull/5) - otnc/spotify-lyrics-position
+- 🟣 [feat: generate empty env values with fill and init](https://github.com/otnc/migenv/pull/22) - otnc/migenv
+- 🟣 [feat: add template key migrations and prepare v0.2.1](https://github.com/otnc/migenv/pull/21) - otnc/migenv
 - 🟣 [test(compat): cover \*.kiritanconfig loading on the oldest supported Node.js](https://github.com/otnc/kiritan/pull/79) - otnc/kiritan
-- 🟣 [fix(ci): build release packages after the version bump](https://github.com/otnc/kiritan/pull/78) - otnc/kiritan
-- 🟣 [refactor(kiritan): replace yargs with citty for the CLI](https://github.com/otnc/kiritan/pull/77) - otnc/kiritan
-- 🟣 [chore(kiritan): bump @kiritan/runtime to ^0.3.0](https://github.com/otnc/kiritan/pull/76) - otnc/kiritan
 
 <!-- activity:end -->
 
