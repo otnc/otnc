@@ -82,11 +82,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [feat: add setValues for explicit env updates in v0.2.2](https://github.com/otnc/migenv/pull/23) - otnc/migenv
-- 🟣 [fix: restore sidebar lyrics on recent Spotify versions](https://github.com/otnc/spotify-lyrics-position/pull/5) - otnc/spotify-lyrics-position
-- 🟣 [feat: generate empty env values with fill and init](https://github.com/otnc/migenv/pull/22) - otnc/migenv
-- 🟣 [feat: add template key migrations and prepare v0.2.1](https://github.com/otnc/migenv/pull/21) - otnc/migenv
-- 🟣 [test(compat): cover \*.kiritanconfig loading on the oldest supported Node.js](https://github.com/otnc/kiritan/pull/79) - otnc/kiritan
+- 🟢 [refactor: proto を事前生成コードに置き換え、Cloudflare Workers で読み込めるようにする](https://github.com/otnc/mixi2-js/pull/79) - otnc/mixi2-js
+- 🟣 [ci: Node.js / Bun / Deno / Cloudflare Workers でパッケージを動かすスモークテストを追加](https://github.com/otnc/mixi2-js/pull/78) - otnc/mixi2-js
+- 🟣 [docs: 対応環境とランタイムごとの検証状況を記載](https://github.com/otnc/mixi2-js/pull/77) - otnc/mixi2-js
+- 🟣 [docs: AI エージェント向けの Skill を追加](https://github.com/otnc/mixi2-js/pull/75) - otnc/mixi2-js
+- 🟣 [ci: main を squash マージ前提にし、PR タイトルを検証する](https://github.com/otnc/mixi2-js/pull/74) - otnc/mixi2-js
 
 <!-- activity:end -->
 
