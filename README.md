@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟢 [refactor: proto を事前生成コードに置き換え、Cloudflare Workers で読み込めるようにする](https://github.com/otnc/mixi2-js/pull/79) - otnc/mixi2-js
-- 🟣 [ci: Node.js / Bun / Deno / Cloudflare Workers でパッケージを動かすスモークテストを追加](https://github.com/otnc/mixi2-js/pull/78) - otnc/mixi2-js
-- 🟣 [docs: 対応環境とランタイムごとの検証状況を記載](https://github.com/otnc/mixi2-js/pull/77) - otnc/mixi2-js
-- 🟣 [docs: AI エージェント向けの Skill を追加](https://github.com/otnc/mixi2-js/pull/75) - otnc/mixi2-js
-- 🟣 [ci: main を squash マージ前提にし、PR タイトルを検証する](https://github.com/otnc/mixi2-js/pull/74) - otnc/mixi2-js
+- 🟣 [docs(changelog): 1.7.0 に createWebhookHandler を記載し、Release 本文に見出しが残る不具合を直す](https://github.com/otnc/mixi2-js/pull/84) - otnc/mixi2-js
+- 🟣 [fix(jsr): 生成した型定義から CommonJS 形式の import を取り除き、JSR に公開できるようにする](https://github.com/otnc/mixi2-js/pull/83) - otnc/mixi2-js
+- 🟣 [chore: 生成コードを GitHub の言語統計から除外する](https://github.com/otnc/mixi2-js/pull/82) - otnc/mixi2-js
+- 🟣 [docs: Cloudflare Workers で WebhookServer を httpServerHandler 経由で使う方法を記載](https://github.com/otnc/mixi2-js/pull/81) - otnc/mixi2-js
+- 🟣 [feat(webhook): Cloudflare Workers などで使える Fetch API 版の createWebhookHandler を追加](https://github.com/otnc/mixi2-js/pull/80) - otnc/mixi2-js
 
 <!-- activity:end -->
 
