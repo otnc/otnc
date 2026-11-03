@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
+- 🟣 [Restore the ponytail spec in the Musechan VRoid docs](https://github.com/muse-chan/temp/pull/2) - muse-chan/temp
+- 🟣 [Correct Musechan hairstyle and camisole length in the VRoid docs](https://github.com/muse-chan/temp/pull/1) - muse-chan/temp
 - 🟣 [Fix Windows Save As focus and VRM Settings OCR band on VRoid 2.16.0](https://github.com/muse-chan/mcp-vroid-forWindows-216/pull/1) - muse-chan/mcp-vroid-forWindows-216
 - 🟣 [refactor(lifecycle): 本家の設定の書き換えを tidwall/sjson に任せる](https://github.com/otnc/vMeltype/pull/69) - otnc/vMeltype
 - 🟣 [refactor(lifecycle): 管理ルートの排他を gofrs/flock に任せる](https://github.com/otnc/vMeltype/pull/68) - otnc/vMeltype
-- 🟣 [feat(cli): エラー、警告、doctor、表の見出し、確認に色を付ける](https://github.com/otnc/vMeltype/pull/66) - otnc/vMeltype
-- 🟣 [feat(cli): y/n の確認を 1 キーで答えられるようにする](https://github.com/otnc/vMeltype/pull/64) - otnc/vMeltype
 
 <!-- activity:end -->
 
