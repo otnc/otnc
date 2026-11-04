@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [Restore the ponytail spec in the Musechan VRoid docs](https://github.com/muse-chan/temp/pull/2) - muse-chan/temp
-- 🟣 [Correct Musechan hairstyle and camisole length in the VRoid docs](https://github.com/muse-chan/temp/pull/1) - muse-chan/temp
-- 🟣 [Fix Windows Save As focus and VRM Settings OCR band on VRoid 2.16.0](https://github.com/muse-chan/mcp-vroid-forWindows-216/pull/1) - muse-chan/mcp-vroid-forWindows-216
-- 🟣 [refactor(lifecycle): 本家の設定の書き換えを tidwall/sjson に任せる](https://github.com/otnc/vMeltype/pull/69) - otnc/vMeltype
-- 🟣 [refactor(lifecycle): 管理ルートの排他を gofrs/flock に任せる](https://github.com/otnc/vMeltype/pull/68) - otnc/vMeltype
+- 🟣 [docs: デプロイ元を mofumofupop/fllooat に移したことを反映](https://github.com/mofumofupop/fllooat/pull/1) - mofumofupop/fllooat
+- 🟣 [Replace removed HeadingSecondary with Heading](https://github.com/oto-lab/vc-easy-userplugins-updater/pull/1) - oto-lab/vc-easy-userplugins-updater
+- 🟣 [Replace removed TextCompat with Text](https://github.com/nicola02nb/showPing/pull/2) - nicola02nb/showPing
+- 🟢 [fix: use Text from @components/Text](https://github.com/schmayterling/vencord-antirickroll/pull/17) - schmayterling/vencord-antirickroll
+- 🟣 [docs: ns.md の句読点を「、。」に直す](https://github.com/oto-lab/devuloper-posts/pull/14) - oto-lab/devuloper-posts
 
 <!-- activity:end -->
 
