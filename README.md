@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [docs: デプロイ元を mofumofupop/fllooat に移したことを反映](https://github.com/mofumofupop/fllooat/pull/1) - mofumofupop/fllooat
-- 🟣 [Replace removed HeadingSecondary with Heading](https://github.com/oto-lab/vc-easy-userplugins-updater/pull/1) - oto-lab/vc-easy-userplugins-updater
-- 🟣 [Replace removed TextCompat with Text](https://github.com/nicola02nb/showPing/pull/2) - nicola02nb/showPing
-- 🟢 [fix: use Text from @components/Text](https://github.com/schmayterling/vencord-antirickroll/pull/17) - schmayterling/vencord-antirickroll
-- 🟣 [docs: ns.md の句読点を「、。」に直す](https://github.com/oto-lab/devuloper-posts/pull/14) - oto-lab/devuloper-posts
+- 🟣 [feat(cli): track で OS のスケジューラーへの登録と push 通知を使う](https://github.com/otnc/vMeltype/pull/111) - otnc/vMeltype
+- 🟣 [ci: 開発とビルドのコマンドを pnpm の scripts にまとめる](https://github.com/otnc/vMeltype/pull/104) - otnc/vMeltype
+- 🟣 [feat(cli): track で新しいバージョンへの自動の追従を設定し、追従の処理を動かす](https://github.com/otnc/vMeltype/pull/102) - otnc/vMeltype
+- 🟣 [feat(cli): apply で適用待ちのバージョンを適用し、status と doctor で示す](https://github.com/otnc/vMeltype/pull/101) - otnc/vMeltype
+- 🟣 [docs: 製品名を vMeltype と書く](https://github.com/otnc/vMeltype/pull/100) - otnc/vMeltype
 
 <!-- activity:end -->
 
