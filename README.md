@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
+- 🟣 [feat: add CLI for license reporting and linting with caching support](https://github.com/otnc/package-license-viewer/pull/44) - otnc/package-license-viewer
+- 🟣 [fix(diagnostics): improve workspace diagnostics refresh logic and add tests](https://github.com/otnc/kiritan/pull/82) - otnc/kiritan
+- 🟣 [docs: ドキュメントの多言語化を効率化](https://github.com/otnc/package-license-viewer/pull/42) - otnc/package-license-viewer
+- 🟣 [Turns out it already had Windows support lol](https://github.com/supurazako/git-ad/pull/1) - supurazako/git-ad
 - 🟣 [feat(cli): track で OS のスケジューラーへの登録と push 通知を使う](https://github.com/otnc/vMeltype/pull/111) - otnc/vMeltype
-- 🟣 [ci: 開発とビルドのコマンドを pnpm の scripts にまとめる](https://github.com/otnc/vMeltype/pull/104) - otnc/vMeltype
-- 🟣 [feat(cli): track で新しいバージョンへの自動の追従を設定し、追従の処理を動かす](https://github.com/otnc/vMeltype/pull/102) - otnc/vMeltype
-- 🟣 [feat(cli): apply で適用待ちのバージョンを適用し、status と doctor で示す](https://github.com/otnc/vMeltype/pull/101) - otnc/vMeltype
-- 🟣 [docs: 製品名を vMeltype と書く](https://github.com/otnc/vMeltype/pull/100) - otnc/vMeltype
 
 <!-- activity:end -->
 
