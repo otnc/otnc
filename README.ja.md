@@ -82,11 +82,11 @@ I'm swimming in the ocean, forever and ever...
 
 <!-- activity:start -->
 
-- 🟣 [feat: add CLI for license reporting and linting with caching support](https://github.com/otnc/package-license-viewer/pull/44) - otnc/package-license-viewer
-- 🟣 [fix(diagnostics): improve workspace diagnostics refresh logic and add tests](https://github.com/otnc/kiritan/pull/82) - otnc/kiritan
-- 🟣 [docs: ドキュメントの多言語化を効率化](https://github.com/otnc/package-license-viewer/pull/42) - otnc/package-license-viewer
-- 🟣 [Turns out it already had Windows support lol](https://github.com/supurazako/git-ad/pull/1) - supurazako/git-ad
-- 🟣 [feat(cli): track で OS のスケジューラーへの登録と push 通知を使う](https://github.com/otnc/vMeltype/pull/111) - otnc/vMeltype
+- 🟢 [feat: ノート向けの特殊記法 %%command%% とテキスト系コマンド](https://github.com/oto-lab/devuloper-posts/pull/24) - oto-lab/devuloper-posts
+- 🟣 [chore: upstream 2026.11.0 を取り込む](https://github.com/oto-lab/devuloper-posts/pull/23) - oto-lab/devuloper-posts
+- 🟣 [docs: README を 0.1.0 に合わせる](https://github.com/otnc/vMeltype/pull/120) - otnc/vMeltype
+- 🟣 [feat(cli): completion でシェルの補完のスクリプトを出す](https://github.com/otnc/vMeltype/pull/115) - otnc/vMeltype
+- 🟣 [fix(cli): 何も変えないコマンドで管理ルートを作らない](https://github.com/otnc/vMeltype/pull/114) - otnc/vMeltype
 
 <!-- activity:end -->
 
