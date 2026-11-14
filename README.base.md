@@ -136,11 +136,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
+- 🟣 [fix(vscode): 脆弱性のある minimatch 10 を overrides で 11 にする](https://github.com/otnc/fiXmArgeScript/pull/6) - otnc/fiXmArgeScript
+- 🟣 [ci(release): v* のタグを otoneko-release App のトークンで push する](https://github.com/otnc/fiXmArgeScript/pull/5) - otnc/fiXmArgeScript
+- 🟣 [feat: add tab group priorities and explicit matching rules](https://github.com/otnc/enhanced-tab-manager/pull/5) - otnc/enhanced-tab-manager
 - 🟢 [feat: ノート向けの特殊記法 %%command%% とテキスト系コマンド](https://github.com/oto-lab/devuloper-posts/pull/24) - oto-lab/devuloper-posts
 - 🟣 [chore: upstream 2026.11.0 を取り込む](https://github.com/oto-lab/devuloper-posts/pull/23) - oto-lab/devuloper-posts
-- 🟣 [docs: README を 0.1.0 に合わせる](https://github.com/otnc/vMeltype/pull/120) - otnc/vMeltype
-- 🟣 [feat(cli): completion でシェルの補完のスクリプトを出す](https://github.com/otnc/vMeltype/pull/115) - otnc/vMeltype
-- 🟣 [fix(cli): 何も変えないコマンドで管理ルートを作らない](https://github.com/otnc/vMeltype/pull/114) - otnc/vMeltype
 <!-- activity:end -->
 
 :::kiritan{locale=en}
