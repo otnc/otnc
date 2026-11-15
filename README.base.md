@@ -136,11 +136,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [fix(vscode): 脆弱性のある minimatch 10 を overrides で 11 にする](https://github.com/otnc/fiXmArgeScript/pull/6) - otnc/fiXmArgeScript
-- 🟣 [ci(release): v* のタグを otoneko-release App のトークンで push する](https://github.com/otnc/fiXmArgeScript/pull/5) - otnc/fiXmArgeScript
-- 🟣 [feat: add tab group priorities and explicit matching rules](https://github.com/otnc/enhanced-tab-manager/pull/5) - otnc/enhanced-tab-manager
-- 🟢 [feat: ノート向けの特殊記法 %%command%% とテキスト系コマンド](https://github.com/oto-lab/devuloper-posts/pull/24) - oto-lab/devuloper-posts
-- 🟣 [chore: upstream 2026.11.0 を取り込む](https://github.com/oto-lab/devuloper-posts/pull/23) - oto-lab/devuloper-posts
+- 🟣 [docs: Apache License の本文へのリンクを、新しいファイル名 LICENSE-APACHE にする](https://github.com/funmary-app/license-agreement/pull/14) - funmary-app/license-agreement
+- 🟣 [docs: fill in the Apache License copyright holder and rename LICENSE-APACHE-2.0 to LICENSE-APACHE](https://github.com/funmary-app/license-agreement/pull/13) - funmary-app/license-agreement
+- 🟣 [docs: fill in the Apache License copyright holder and rename LICENSE-APACHE-2.0 to LICENSE-APACHE](https://github.com/funmary-app/funmary/pull/455) - funmary-app/funmary
+- 🟣 [docs: npm と VS Code 拡張の README の見出しをロゴにする](https://github.com/otnc/fiXmArgeScript/pull/28) - otnc/fiXmArgeScript
+- 🟣 [refactor: ルートのフォルダを減らす (Vim は3つ、VS Code 拡張は packaging/ へ、ヘルプはサイトへ)](https://github.com/otnc/fiXmArgeScript/pull/27) - otnc/fiXmArgeScript
 <!-- activity:end -->
 
 :::kiritan{locale=en}
