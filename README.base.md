@@ -136,11 +136,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [docs: Apache License の本文へのリンクを、新しいファイル名 LICENSE-APACHE にする](https://github.com/funmary-app/license-agreement/pull/14) - funmary-app/license-agreement
-- 🟣 [docs: fill in the Apache License copyright holder and rename LICENSE-APACHE-2.0 to LICENSE-APACHE](https://github.com/funmary-app/license-agreement/pull/13) - funmary-app/license-agreement
-- 🟣 [docs: fill in the Apache License copyright holder and rename LICENSE-APACHE-2.0 to LICENSE-APACHE](https://github.com/funmary-app/funmary/pull/455) - funmary-app/funmary
-- 🟣 [docs: npm と VS Code 拡張の README の見出しをロゴにする](https://github.com/otnc/fiXmArgeScript/pull/28) - otnc/fiXmArgeScript
-- 🟣 [refactor: ルートのフォルダを減らす (Vim は3つ、VS Code 拡張は packaging/ へ、ヘルプはサイトへ)](https://github.com/otnc/fiXmArgeScript/pull/27) - otnc/fiXmArgeScript
+- 🟣 [feat: Enhance image source management and documentation](https://github.com/otnc/UshiroE/pull/2) - otnc/UshiroE
+- 🟣 [feat: add UshiroE with safe BackImage coexistence](https://github.com/otnc/UshiroE/pull/1) - otnc/UshiroE
+- 🟣 [fix: GitHub のリリースの %%card.gh%% がエラーになる問題を直す](https://github.com/oto-lab/devuloper-posts/pull/31) - oto-lab/devuloper-posts
+- 🟣 [docs: ノート用コマンドの説明と使い方ダイアログ、%%np%% の既定の形式](https://github.com/oto-lab/devuloper-posts/pull/30) - oto-lab/devuloper-posts
+- 🟣 [chore: 翻訳コマンド %%tr%% を削除する](https://github.com/oto-lab/devuloper-posts/pull/29) - oto-lab/devuloper-posts
 <!-- activity:end -->
 
 :::kiritan{locale=en}
