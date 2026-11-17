@@ -136,11 +136,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
+- 🟣 [fix: cap background opacity and confirm high values before keeping them](https://github.com/otnc/UshiroE/pull/3) - otnc/UshiroE
 - 🟣 [feat: Enhance image source management and documentation](https://github.com/otnc/UshiroE/pull/2) - otnc/UshiroE
 - 🟣 [feat: add UshiroE with safe BackImage coexistence](https://github.com/otnc/UshiroE/pull/1) - otnc/UshiroE
 - 🟣 [fix: GitHub のリリースの %%card.gh%% がエラーになる問題を直す](https://github.com/oto-lab/devuloper-posts/pull/31) - oto-lab/devuloper-posts
 - 🟣 [docs: ノート用コマンドの説明と使い方ダイアログ、%%np%% の既定の形式](https://github.com/oto-lab/devuloper-posts/pull/30) - oto-lab/devuloper-posts
-- 🟣 [chore: 翻訳コマンド %%tr%% を削除する](https://github.com/oto-lab/devuloper-posts/pull/29) - oto-lab/devuloper-posts
 <!-- activity:end -->
 
 :::kiritan{locale=en}
