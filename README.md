@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [fix: cap background opacity and confirm high values before keeping them](https://github.com/otnc/UshiroE/pull/3) - otnc/UshiroE
-- 🟣 [feat: Enhance image source management and documentation](https://github.com/otnc/UshiroE/pull/2) - otnc/UshiroE
-- 🟣 [feat: add UshiroE with safe BackImage coexistence](https://github.com/otnc/UshiroE/pull/1) - otnc/UshiroE
-- 🟣 [fix: GitHub のリリースの %%card.gh%% がエラーになる問題を直す](https://github.com/oto-lab/devuloper-posts/pull/31) - oto-lab/devuloper-posts
-- 🟣 [docs: ノート用コマンドの説明と使い方ダイアログ、%%np%% の既定の形式](https://github.com/oto-lab/devuloper-posts/pull/30) - oto-lab/devuloper-posts
+- 🟣 [fix(ci): 節目の版の対象に最新の公開済みビルドを選ぶ](https://github.com/funmary-app/funmary/pull/459) - funmary-app/funmary
+- 🔴 [WIP Update license file year to 2026 with author name](https://github.com/otnc/restore-github-starlist/pull/1) - otnc/restore-github-starlist
+- 🟣 [fix(web): トップページの見出しを元に戻す](https://github.com/funmary-app/funmary/pull/458) - funmary-app/funmary
+- 🟣 [refactor(web): 環境変数ファイルの編集に migenv を導入](https://github.com/funmary-app/funmary/pull/457) - funmary-app/funmary
+- 🟣 [refactor: 文章とテストの改善](https://github.com/funmary-app/funmary/pull/456) - funmary-app/funmary
 
 <!-- activity:end -->
 
