@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
+- 🟣 [build(deps): 依存の更新を Dependabot にし、CI とテストを速くする](https://github.com/funmary-app/funmary/pull/471) - funmary-app/funmary
+- 🟣 [build(repo): mutator を 0.4.5 に上げて独自のパッチをやめる](https://github.com/funmary-app/funmary/pull/470) - funmary-app/funmary
+- 🟣 [fix(deploy): 本番の Node.js を apt の 26 系にそろえる準備](https://github.com/funmary-app/funmary/pull/469) - funmary-app/funmary
 - 🟣 [fix(ci): 節目の版の対象に最新の公開済みビルドを選ぶ](https://github.com/funmary-app/funmary/pull/459) - funmary-app/funmary
 - 🔴 [WIP Update license file year to 2026 with author name](https://github.com/otnc/restore-github-starlist/pull/1) - otnc/restore-github-starlist
-- 🟣 [fix(web): トップページの見出しを元に戻す](https://github.com/funmary-app/funmary/pull/458) - funmary-app/funmary
-- 🟣 [refactor(web): 環境変数ファイルの編集に migenv を導入](https://github.com/funmary-app/funmary/pull/457) - funmary-app/funmary
-- 🟣 [refactor: 文章とテストの改善](https://github.com/funmary-app/funmary/pull/456) - funmary-app/funmary
 
 <!-- activity:end -->
 
