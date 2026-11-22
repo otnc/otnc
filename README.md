@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
+- 🟣 [docs: generate the bilingual docs from base files with Kiritan](https://github.com/otnc/tfjs-native/pull/4) - otnc/tfjs-native
+- 🟣 [build: bump libtensorflow to 2.15.0](https://github.com/otnc/tfjs-native/pull/3) - otnc/tfjs-native
+- 🟣 [feat(tensor): support string and complex64 dtypes](https://github.com/otnc/tfjs-native/pull/2) - otnc/tfjs-native
+- 🟣 [fix: support Astro 7.4, cf 0.0.4 and later, and Miniflare 5 betas](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/42) - otnc/astro-adapter-cloudflare-pages
 - 🟣 [build(deps): 依存の更新を Dependabot にし、CI とテストを速くする](https://github.com/funmary-app/funmary/pull/471) - funmary-app/funmary
-- 🟣 [build(repo): mutator を 0.4.5 に上げて独自のパッチをやめる](https://github.com/funmary-app/funmary/pull/470) - funmary-app/funmary
-- 🟣 [fix(deploy): 本番の Node.js を apt の 26 系にそろえる準備](https://github.com/funmary-app/funmary/pull/469) - funmary-app/funmary
-- 🟣 [fix(ci): 節目の版の対象に最新の公開済みビルドを選ぶ](https://github.com/funmary-app/funmary/pull/459) - funmary-app/funmary
-- 🔴 [WIP Update license file year to 2026 with author name](https://github.com/otnc/restore-github-starlist/pull/1) - otnc/restore-github-starlist
 
 <!-- activity:end -->
 
