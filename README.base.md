@@ -136,11 +136,11 @@ Issuer:
 :::
 
 <!-- activity:start -->
-- 🟣 [docs: generate the bilingual docs from base files with Kiritan](https://github.com/otnc/tfjs-native/pull/4) - otnc/tfjs-native
-- 🟣 [build: bump libtensorflow to 2.15.0](https://github.com/otnc/tfjs-native/pull/3) - otnc/tfjs-native
-- 🟣 [feat(tensor): support string and complex64 dtypes](https://github.com/otnc/tfjs-native/pull/2) - otnc/tfjs-native
-- 🟣 [fix: support Astro 7.4, cf 0.0.4 and later, and Miniflare 5 betas](https://github.com/otnc/astro-adapter-cloudflare-pages/pull/42) - otnc/astro-adapter-cloudflare-pages
-- 🟣 [build(deps): 依存の更新を Dependabot にし、CI とテストを速くする](https://github.com/funmary-app/funmary/pull/471) - funmary-app/funmary
+- 🟣 [feat: load custom license providers in the CLI with --provider](https://github.com/otnc/package-license-viewer/pull/46) - otnc/package-license-viewer
+- 🟣 [docs: restructure the README around commands, directives and the library](https://github.com/otnc/migenv/pull/29) - otnc/migenv
+- 🟣 [chore: test the oldest supported Node 18.3.0 in CI](https://github.com/otnc/migenv/pull/28) - otnc/migenv
+- 🟣 [feat: add extract to build templates from env files](https://github.com/otnc/migenv/pull/27) - otnc/migenv
+- 🟣 [chore: migenv を 0.3.0 に上げ、.env を作るのを init にする](https://github.com/otnc/fiXmArgeScript/pull/30) - otnc/fiXmArgeScript
 <!-- activity:end -->
 
 :::kiritan{locale=en}
