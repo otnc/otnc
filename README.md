@@ -82,11 +82,11 @@ Issuer:
 
 <!-- activity:start -->
 
-- 🟣 [feat: load custom license providers in the CLI with --provider](https://github.com/otnc/package-license-viewer/pull/46) - otnc/package-license-viewer
-- 🟣 [docs: restructure the README around commands, directives and the library](https://github.com/otnc/migenv/pull/29) - otnc/migenv
-- 🟣 [chore: test the oldest supported Node 18.3.0 in CI](https://github.com/otnc/migenv/pull/28) - otnc/migenv
-- 🟣 [feat: add extract to build templates from env files](https://github.com/otnc/migenv/pull/27) - otnc/migenv
-- 🟣 [chore: migenv を 0.3.0 に上げ、.env を作るのを init にする](https://github.com/otnc/fiXmArgeScript/pull/30) - otnc/fiXmArgeScript
+- 🟣 [Outline the tray icon's number so it can be larger](https://github.com/otnc/Volm/pull/8) - otnc/Volm
+- 🟣 [Draw the tray icon after the app icon: scale, number and speaker](https://github.com/otnc/Volm/pull/7) - otnc/Volm
+- 🟣 [Describe installing from the releases instead of saying there are none](https://github.com/otnc/Volm/pull/6) - otnc/Volm
+- 🟣 [Control the microphone: hotkeys, tray menu and input device](https://github.com/otnc/Volm/pull/5) - otnc/Volm
+- 🟣 [Speed up the volume on a quick wheel, and step 1% with Shift](https://github.com/otnc/Volm/pull/4) - otnc/Volm
 
 <!-- activity:end -->
 
